@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => {
       <section className="section">
         <div className="main-column header-intro">
           <h2>The Greater Boston region is experiencing a housing crisis stemming from lack of affordable housing and appropriate housing types for current household incomes and formations. MAPC’s Living Little project investigates small housing typologies for MAPC’s South West Advisory Planning Committee (SWAP) and Three Rivers Interlocal Council (TRIC) subregions.</h2>
-          <a href="/about/"><h3>Read more about Living Little.</h3></a>
+          <a href="/living-little/about/"><h3>Read more about Living Little.</h3></a>
         </div>
       </section>
     </div>

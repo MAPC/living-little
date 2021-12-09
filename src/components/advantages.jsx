@@ -50,42 +50,38 @@ const Advantages = ({typology}) => {
     const whyTitle = {
         adu: {
             title: "ADUs",
-            width: "328"
+            width: "336"
         },
         cottage: {
             title: "Cottage Developments",
-            width: "532"
+            width: "520"
         },
         tinyhouse: {
             title: "Tiny Houses",
-            width: "422"
+            width: "410"
         },
         townhouse: {
             title: "Townhouses",
-            width: "422" // need to adjust
+            width: "412"
         },
         sfc: {
             title: "Single-Family Conversions",
-            width: "422" // need to adjust
+            width: "555"
         },
         mixeduse: {
             title: "Small Scale Mixed-Use Developments",
-            width: "682"
+            width: "670"
         },
         cohousing: {
             title: "Cohousing",
-            width: "408"
+            width: "392"
         }
     };
 
     return (
         <div>
-            <article className="advantages">
-                <SubtopicHeader title={`Cool Things to Know About ${advantagesTitle[typology].title}`} highlightWidth={advantagesTitle[typology].width} />
-                {advantagesLi}
-            </article>
             <article className="why">
-                <SubtopicHeader title={`So Why Don't I See More ${whyTitle[typology].title}`} highlightWidth={whyTitle[typology].width} />
+                <SubtopicHeader title={`So Why Don't I See More ${whyTitle[typology].title}?`} highlightWidth={whyTitle[typology].width} />
                 {whyLi}
             </article>
         </div>
