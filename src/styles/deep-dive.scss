@@ -111,6 +111,9 @@
 }
 
 .overview {
+  p {
+    margin-bottom: 3rem;
+  }
   &__gif {
     max-width: calc(100% - 2rem);
   }

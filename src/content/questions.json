@@ -52,8 +52,12 @@
     "townhouse": {
       "questions": [
         {
-          "q": "Need questions?",
-          "a": "Need answers."
+          "q": "What if townhouses are too urban for my community?",
+          "a": "Appropriate design standards can ensure that townhouses are built in alignment with existing neighborhood character and promote pedestrian activities. In addition, at two- to three-stories tall, most townhouses are of similar scale to detached single family homes."
+        },
+        {
+          "q": "If townhouses are large enough for families, won‘t they increase school enrollment?",
+          "a": "Several studies show little correlation between new housing development and increased school enrollment.[1]"
         }
       ],
       "history": {
@@ -73,8 +77,16 @@
     "sfc": {
       "questions": [
         {
-          "q": "Need questions?",
-          "a": "Need answers."
+          "q": "Won’t single family conversions cause overcrowding?",
+          "a": "Overcrowding is unlikely because the size of the house is not changing. For example, if a four-bedroom house that could accommodate a five-person family is converted to three one-bedroom homes each occupied by a single person or a couple, the overall number of occupants may not even increase."
+        },
+        {
+          "q": "How can a septic system built for one family accommodate multiple apartments?",
+          "a": "Septic systems are typically sized based on the number of bedrooms. As described in the example above, a conversion may not necessarily result in any increase in the number of bedrooms or occupants."
+        },
+        {
+          "q": "What about parking?",
+          "a": "Homes suitable to conversions are typically larger single-family homes, which usually have driveways that can accommodate several off-street parking spaces. In addition, conversions occur incrementally over time, so any increased parking demand will not overwhelm street capacity or traffic patterns."
         }
       ],
       "history": {
@@ -94,8 +106,12 @@
      "mixeduse": {      
       "questions": [
         {
-          "q": "Need questions?",
-          "a": "Need answers."
+          "q": "Won’t new housing in already-busy mixed-use districts increase traffic?",
+          "a": "Typically a residential unit, whose occupants may take a few trips each day, has minimal traffic impact when compared to commercial uses, which may see dozens of visitors each hour. A traffic impact study and/or parking analysis can identify potential impacts ahead of development."
+        },
+        {
+          "q": "How will businesses in existing strip malls be impacted by redevelopment?",
+          "a": "Any commercial redevelopment, including strip malls, should engage with business owners to ensure that valued local businesses are not displaced. In many cases, existing businesses are offered affordable space in the buildings."
         }
       ],
       "history": {
@@ -143,6 +159,10 @@
   
     "cohousing": {
       "questions": [
+        {
+          "q": "What is the impact of cohousing on neighborhood parking, services, and infrastructure?",
+          "a": "A well-structured cohousing project will not differ substantively from a more typical multifamily development with generous shared spaces. [SA1]"
+        },
         {
           "q": "Need questions?",
           "a": "Need answers."
