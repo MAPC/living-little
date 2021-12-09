@@ -1,23 +1,11 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faTwitter, faInstagram, faFacebookSquare, faLinkedinIn,
 } from '@fortawesome/free-brands-svg-icons';
+import logo from "../images/mapc-logo.svg";
 
 const Footer = () => {
-  const data = useStaticQuery(graphql`
-    {
-      allFile(filter: { extension: { eq: "svg" } }) {
-        edges {
-          node {
-            publicURL
-            name
-          }
-        }
-      }
-    }
-`);
   return (
     <footer className="footer">
       <section className="footer__column footer__column--about">
@@ -34,7 +22,7 @@ const Footer = () => {
             <a href="https://metrocommon.mapc.org/process-details" className="footer__link">MetroCommon Process Details</a>
           </li>
           <li className="footer__list-item">
-            <a href="https://metrocommon.mapc.org/events" className="footer__link">MetroCommon x 2050 Events</a>
+            <a href="https://metrocommon.mapc.org/events" className="footer__link">MetroCommon Events</a>
           </li>
         </ul>
       </section>
@@ -42,10 +30,7 @@ const Footer = () => {
         <h3 className="h3 footer__title">Explore</h3>
         <ul className="footer__list">
           <li className="footer__list-item">
-            <a href="https://www.mapc.org/about-mapc/staff/" className="footer__link">Staff</a>
-          </li>
-          <li className="footer__list-item">
-            <a href="https://www.mapc.org/get-involved/metrofuture-our-regional-plan/" className="footer__link">MetroFuture</a>
+            <a href="https://metrocommon.mapc.org/" className="footer__link">MetroCommon x 2050</a>
           </li>
           <li className="footer__list-item">
             <a href="https://datacommon.mapc.org/" className="footer__link">DataCommon</a>
@@ -54,13 +39,16 @@ const Footer = () => {
             <a href="https://www.massbuilds.com/map" className="footer__link">MassBuilds</a>
           </li>
           <li className="footer__list-item">
+            <a href="https://zoningatlas.mapc.org/" className="footer__link">Zoning Atlas</a>
+          </li>
+          <li className="footer__list-item">
             <a href="https://trailmap.mapc.org/" className="footer__link">Trailmap</a>
           </li>
         </ul>
       </section>
       <section className="footer__column footer__column--contact">
         <h3 className="h3 footer__title">Contact Us</h3>
-        <a href="https://goo.gl/maps/5GP7YcEtS1E2" className="footer__link">60 Temple Place,</a>
+        <a href="https://goo.gl/maps/5GP7YcEtS1E2" className="footer__link">60 Temple Place</a>
         <br />
         <a href="https://goo.gl/maps/5GP7YcEtS1E2" className="footer__link">Boston, MA 02111</a>
         <br />
@@ -71,7 +59,7 @@ const Footer = () => {
       </section>
       <div className="footer__image-block">
         <a href="https://mapc.org" className="footer__link footer__logo">
-          <img src={data.allFile.edges[0].node.publicURL} alt="MAPC Logo" className="footer__logo" />
+          <img src={logo} alt="MAPC Logo" className="footer__logo" />
         </a>
         <div className="footer__social-list">
           <a href="https://twitter.com/MAPCMetroBoston" className="footer__link footer__icon">
