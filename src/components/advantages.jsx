@@ -80,10 +80,6 @@ const Advantages = ({typology}) => {
 
     return (
         <div>
-            <article className="advantages">
-                <SubtopicHeader title={`Cool Things to Know About ${advantagesTitle[typology].title}`} highlightWidth={advantagesTitle[typology].width} />
-                {advantagesLi}
-            </article>
             <article className="why">
                 <SubtopicHeader title={`So Why Don't I See More ${whyTitle[typology].title}`} highlightWidth={whyTitle[typology].width} />
                 {whyLi}

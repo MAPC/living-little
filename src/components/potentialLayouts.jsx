@@ -1,8 +1,5 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
-// import Img from "gatsby-image"
-import { GatsbyImage } from "gatsby-plugin-image"
 import SubtopicHeader from './subtopicHeader';
 import OpportunityButton from './opportunityButton';
 import opportunties from '../content/opportunities.json';
@@ -14,7 +11,7 @@ import layoutAdu3 from "../images/layout-adu3.png";
 import layoutAdu4 from "../images/layout-adu4.png";
 import layoutCottage1 from "../images/layout-cottage1.png";
 import layoutCottage2 from "../images/layout-cottage2.jpg";
-import layoutTinyhouse1 from "../images/layout-tinyhouse1.png";
+import layoutTinyhouse1 from "../images/layout-tiny1.png";
 import layoutTownhouse1 from "../images/layout-townhouse1.jpg";
 import layoutTownhouse2 from "../images/layout-townhouse2.jpg";
 import layoutTownhouse3 from "../images/layout-townhouse3.png";
@@ -26,24 +23,6 @@ import layoutSfc4 from "../images/layout-sfc4.png";
 
 
 const PotentialLayouts = ({ typology }) => {
-  const data = useStaticQuery(graphql`
-    {
-      aduOneFloor: file(relativePath: {eq: "potential-layouts/adu_onefloor.png"}) {
-        childImageSharp {
-          fixed(width: 500, height: 394) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      },
-      aduTwoFloors: file(relativePath: {eq: "potential-layouts/adu_twofloors.png"}) {
-        childImageSharp {
-          fixed(width: 440, height: 500) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-}
-  `);
 
   const potentialLayoutParagraphs = potentialLayouts[typology].map((paragraph) => <p className="potential-layouts__paragraph">{paragraph}</p>);
 
@@ -51,8 +30,8 @@ const PotentialLayouts = ({ typology }) => {
     adu: [layoutAdu0],
     cottage: [layoutCottage1],
     tinyhouse: [layoutTinyhouse1],
-    townhouse: [layoutTownhouse1, layoutTownhouse2, layoutTownhouse3, layoutTownhouse4],
-    sfc: [layoutSfc1, layoutSfc2, layoutSfc3, layoutSfc4],
+    townhouse: [],
+    sfc: [],
     mixeduse: [],
     cohousing: []
   };
@@ -63,8 +42,6 @@ const PotentialLayouts = ({ typology }) => {
     <article className="article">
       <SubtopicHeader title="Potential Layouts" highlightWidth={193} />
       {potentialLayoutParagraphs}
-      {/* <Img fixed={data.aduOneFloor.childImageSharp.fixed} className="potential-layouts__img" />
-      <Img fixed={data.aduTwoFloors.childImageSharp.fixed} className="potential-layouts__img" /> */}
       {potentialLayoutImages}
       <div className="opportunity__wrapper">
         <OpportunityButton
