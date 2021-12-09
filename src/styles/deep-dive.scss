@@ -80,7 +80,7 @@
   box-shadow: $shadow-level-four;
   color: $color_font-contrast;
   display: flex;
-  flex-basis: 35%;
+  flex-basis: 43%;
   margin: 1rem 0;
   padding: 1rem;
   width: 17.5rem;
@@ -94,8 +94,10 @@
     }
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
-    margin-top: 3rem;
+    justify-content: space-between;
+    margin: 3rem auto 0;
+    padding-right: 1rem;
+    width: 90%;
   }
 
   &__title {
