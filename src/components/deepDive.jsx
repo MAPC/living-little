@@ -13,10 +13,6 @@ import CaseStudies from './caseStudies';
 
 
 const TypologyDeepDive = ({ typology }) => {
-  let baseUrl = '/';
-  if (typeof window !== "undefined") {
-    baseUrl = window.location.pathname;
-  }
   return (
     <section className="section deep-dive-container" id="select">
       <div className="main-column">
@@ -28,7 +24,7 @@ const TypologyDeepDive = ({ typology }) => {
         <Advantages typology={typology} />
         <Questions typology={typology} />
         {/* <CaseStudies typology={typology} /> */}
-        <AnchorLink to={`${baseUrl}#select`} className="anchor__wrapper">
+        <AnchorLink to={`/living-little/#select`} className="anchor__wrapper">
           <FontAwesomeIcon icon={faArrowAltCircleUp} className="anchor__icon" />
           <span className="anchor__helper-text">Select another typology</span>
         </AnchorLink>
