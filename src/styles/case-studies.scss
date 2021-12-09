@@ -1,0 +1,51 @@
+.case-studies {
+  clear: both;
+  display: flex;
+  justify-content: center;
+
+  &__wrapper {
+    width: 100%;
+    margin: 0 2rem 3rem 0;
+  }
+}
+
+.slides {
+  &__wrapper {
+
+    @media only screen and (max-width: 1010px) {
+      width: 100%;
+    }
+
+    @include media(large) {
+      height: 30.4rem;
+      width: 100%;
+    }
+
+    @include media(medium) {
+      height: 22.4rem;
+      width: 100%;
+    }
+
+    @include media(small) {
+      height: 23.4rem;
+      width: 100%;
+    }
+
+    @include media('x-small') {
+      margin: 1rem;
+      width: 100%;
+    }
+
+    box-shadow: $shadow-level-five;
+    height: 38.4rem;
+    margin: 1rem 0 0;
+    width: 48rem;
+  }
+
+  &__embed {
+    height: 100%;
+    overflow: scroll;
+    position: relative;
+    width: 100%;
+  }
+}

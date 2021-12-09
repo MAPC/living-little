@@ -1,11 +1,13 @@
 module.exports = {
+  pathPrefix: '/living-little',
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Living Little`,
+    description: `Production site for MAPC\'s Living Little toolkit`,
+    author: `@MAPCMetroBoston`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {

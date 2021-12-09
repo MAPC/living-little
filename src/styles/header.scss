@@ -1,0 +1,113 @@
+a {
+    text-decoration: none;
+}
+
+.header-container {
+    background-image: url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1000px 1fr;
+    grid-template-areas: "col1 col2 col3";
+    height: 35rem;
+    @media only screen and (max-width: 1020px) {
+        grid-template-columns: 0 1fr 0;
+    }
+    @media only screen and (max-width: 850px) {
+        height: 48rem;
+    }
+    @media only screen and (max-width: 480px) {
+        height: 42rem;
+    }
+}
+
+.col {
+    &-1 {
+        background-color: #ffffff;
+        grid-area: col1;
+        opacity: 0.8;
+    }
+    &-2 {
+        background-color: #ffffff;
+        clip-path: polygon(0 0, 0 100%, 40% 100%, 40% 30%, 65% 10%, 90% 30%, 90% 80%, 0% 80%, 40% 100%, 101% 100%, 101% 0%);      
+        display: flex;
+        grid-area: col2;
+        max-width: 100vw;
+        opacity: 0.8;
+        width: 1000px;
+        &-half {
+            background: $color_bg-violet;
+            color: #ffffff;
+            display: inline-block;
+            grid-area: col2;
+            height: 50%;
+            margin-left: 10%;
+            margin-right: 5%;
+            margin-top: 21%;
+            position: relative;
+            width: 25%;
+            &:before {
+                border-bottom: 140px solid $color_bg-violet;
+                border-right: 250px solid transparent;
+                content: "";
+                height: 0;
+                left: 0;
+                position: absolute;
+                top: -40%;
+                width: 0; 
+            }
+            &-copy {
+                padding: 1rem;
+                h1 {
+                    font-size: $font_size-title;
+                    line-height: 4.2rem;
+                    margin: 20px 0;
+                    text-transform: lowercase;
+                }
+                p {
+                    margin: 0;
+                }
+            }
+        }
+
+        @media only screen and (max-width: 1020px) {
+            grid-template-columns: 0 1fr 0;
+            &-half {
+                margin-right: 2%;
+                margin-top: 210px;
+                width: 250px;
+                &:before {
+                    top: -139px;
+                }
+            }
+        }
+        @media only screen and (max-width: 850px) {
+            clip-path: none;
+            &-half {
+                margin-right: 2%;
+                margin-top: 210px;
+                width: 250px;
+                &:before {
+                    top: -139px;
+                }
+            }
+        }
+        @media only screen and (max-width: 480px) {
+            clip-path: none;
+            &-half {
+                height: 40%;
+                margin-right: 2%;
+                margin-top: 210px;
+                width: 250px;
+                &:before {
+                    top: -139px;
+                }
+            }
+        }
+    }
+    &-3 {
+        background-color: #ffffff;
+        grid-area: col3;
+        opacity: 0.8;
+    }
+}

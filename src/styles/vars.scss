@@ -1,0 +1,35 @@
+$color_highlight-yellow: #F3E7A1;
+$color_bg-violet: #96536C;
+$color_bg-cyan: #49849D;
+$color_bg-gray: rgba(235, 235, 235, .82);
+$color_accent-green: #8AAA8C;
+$color_accent-blue: #75BCE1;
+$color_font-contrast: #FFFFFF;
+$color_border-gray: #707070;
+$color_font-title: #414141;
+$color_font-default: #414141;
+$color_font-black: #000000;
+$shadow-level-one: rgba(0, 0, 0, .10) 0 3px 6px;
+$shadow-level-two: rgba(0, 0, 0, .25) 0 3px 12px;
+$shadow-level-three: rgba(0, 0, 0, .5) 0 3px 20px; // deep dive container
+$shadow-level-four: 5px 5px 15px rgba(0,0,0,0.3); // oppotunities and dropdown
+$shadow-level-five: rgba(0, 0, 0, .2) 0 3px 50px; // soft, all four edges
+
+$font_size-base: 1rem; //16px
+$font_size-medium: 1.25rem; //20px
+$font_size-title: 5rem; // 80px
+
+// Media query
+@mixin media($size) {
+  @if $size == 'x-small' {
+    @media only screen and (max-width: 500px) { @content; }
+  } @else if $size == 'small' {
+    @media only screen and (max-width: 650px) { @content; }
+  } @else if $size == 'medium' {
+    @media only screen and (max-width: 800px) { @content; }
+  } @else if $size == 'large' {
+    @media only screen and (px) { @content; }
+  } @else {
+    @media only screen and (max-width: $size) { @content; }
+  }
+}
