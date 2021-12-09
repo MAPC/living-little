@@ -14,8 +14,8 @@ import CaseStudies from './caseStudies';
 
 const TypologyDeepDive = ({ typology }) => {
   return (
-    <section className="section deep-dive-container" id="select">
-      <div className="main-column">
+    <section className="section deep-dive-container">
+      <div className="main-column" id="select">
         <TypologyDropdown typology={typology} />
         <SocialSharing />
         <Overview typology={typology} />
@@ -24,7 +24,7 @@ const TypologyDeepDive = ({ typology }) => {
         <Advantages typology={typology} />
         <Questions typology={typology} />
         {/* <CaseStudies typology={typology} /> */}
-        <AnchorLink to={`/living-little/#select`} className="anchor__wrapper">
+        <AnchorLink to={`#select`} className="anchor__wrapper">
           <FontAwesomeIcon icon={faArrowAltCircleUp} className="anchor__icon" />
           <span className="anchor__helper-text">Select another typology</span>
         </AnchorLink>
