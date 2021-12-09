@@ -27,26 +27,38 @@
     },
     "townhouse": {
       "advantages": [
-        "Advantages placeholder."
+        "Townhouses now come in many different shapes and sizes, and they represent a single-family housing option that tends to be more affordable than large-lot detached homes.",
+        "Townhouses have long been appealing because they balance of privacy in a compact, efficient building footprint."
       ],
       "why": [
-        "Why don't I see more placeholder"
+        "In many towns’ zoning bylaws, large setback requirements and lot coverage restrictions can effectively prohibit townhouses by precluding narrow parcels and/or common walls along lot lines.",
+        "Some towns’ subdivision regulations do not accommodate shared driveways, which are necessary in order to locate parking and trash behind townhouses instead of along the street.",
+        "Townhouses are constrained if a location is not served by public water and sewer lines. This is especially true in smaller towns and suburban communities, many of which rely on septic systems and have limited public infrastructure."
       ]
     },
     "sfc": {
       "advantages": [
-        "Advantages placeholder."
+        "Single-family conversions are a great way to preserve historic homes.",
+        "Converting single family houses of any style is a way to utilize existing housing stock to meet the needs of today’s smaller households.",
+        "Because they were originally designed as single-family houses and are already part of the neighborhood, most conversions are indistinguishable from other single-family houses and match the context of most areas."
       ],
       "why": [
-        "Why don't I see more placeholder"
+        "You may just not notice them! Most single family home conversions do not dramatically change the external appearance of a home, leaving the character of the house and neighborhood unchanged.",
+        "Conversions must satisfy local zoning codes and comply with current building, life safety, and accessibility codes that, depending on the age of the building, may not have existed when the house was built, which can make conversions challenging.",
+        "Conversions require skilled developers, architects, and contractors that have specialized renovation expertise and a willingness to work creatively with local officials."
       ]
     },
     "mixeduse": {
       "advantages": [
-        "Advantages placeholder."
+        "As suburban communities continue to evolve, the separation of uses and the prominence of single-family zoning does not always align with town goals or residents’ needs or desires. In fact, today many people are interested in living in a place where retail, entertainment, and other amenities are located close to where they live.",
+        "Locating housing near essential services such as markets or pharmacies is particularly important for seniors who may no longer be comfortable driving.",
+        "When housing is located close to retail, local businesses benefit from a reliable customer base and increased spending power offered by new households. Additionally, retrofitting these aging commercial areas can create an opportunity to make the area more attractive and pedestrian friendly."
       ],
       "why": [
-        "Why don't I see more placeholder"
+        "Many zoning bylaws require a special permit for mixed-use development or prohibit it altogether.",
+        "Many towns require a high number of parking spaces for retail, restaurants, or entertainment. This often mean it’s easier for a developer to build a conventional strip mall with an expansive parking lot.",
+        "The differing timelines for residential development and commercial leasing can make financing difficult.",
+        "Retrofitting existing strip malls presents unique challenges, including meeting the water and sewer requirements for housing, upgrading outdated structures, and incorporating pedestrian-friendly features in an area that was originally designed primarily for cars."
       ]
     },
     "cottage": {
@@ -65,10 +77,14 @@
     },
     "cohousing": {
       "advantages": [
-        "Advantages placeholder."
+        "The type of common areas vary by community, but are usually far more extensive than a single common meeting room. They can include kitchen and dining areas, workshop or artist studio space, community gardens, game or social rooms, playground or indoor playroom, and more.",
+        "While cohousing can attract households of all ages and are commonly multigenerational, it offers particular benefit to seniors by mitigating physical and social isolation.",
+        "Beyond classic cohousing communities, home sharing and cohousing coordinated through digital platforms is a new trend occurring across the state and the country. Under this framework, residents interested in a shared living situation are connected through a digital platform or peer-to-peer website. Although these are not cohousing communities in the traditional sense and they are not formed in a grassroots manner, they share many of the same values as more traditional cohousing, such as shared meals, mutual assistance, and relationship building.",
+        "Cohousing communities can be legally structured as either a condominium, in which each resident owns the deed to an individual unit and common areas are maintained through monthly condominium fees, or as a limited equity co-op, in which each resident owns a share in the overall development. Limited equity co-ops often limit the resale value of an ownership share to maintain affordability."
       ],
       "why": [
-        "Why don't I see more placeholder"
+        "Perhaps the biggest barrier to cohousing is lack of understanding. Town officials and financing entities unfamiliar with the concept may be at a loss for how to classify the development, and members of the public may be wary of this unconventional type of housing.",
+        "Cohousing is often a grassroots effort and future residents may lack the technical expertise to permit, finance, and construct a new development. It usually takes years to design and build a cohousing community, requiring sustained dedication from community members, and predevelopment costs like purchasing land or architecture, engineering, and legal fees can be extensive."
       ]
     }
   }
