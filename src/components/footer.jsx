@@ -48,11 +48,12 @@ const Footer = () => {
       </section>
       <section className="footer__column footer__column--contact">
         <h3 className="h3 footer__title">Contact Us</h3>
-        <a href="https://goo.gl/maps/5GP7YcEtS1E2" className="footer__link">60 Temple Place</a>
+        <a href="https://goo.gl/maps/5GP7YcEtS1E2" className="footer__link">
+          60 Temple Place<br />
+          Boston, MA 02111
+        </a>
         <br />
-        <a href="https://goo.gl/maps/5GP7YcEtS1E2" className="footer__link">Boston, MA 02111</a>
-        <br />
-        <a href="tel:617-933-0700" className="footer__link">617-933-0700</a>
+        <span className="footer__link">617-933-0700</span>
         <p className="footer__paragraph">
           <a href="https://metrocommon.mapc.org" className="footer__link">metrocommon.mapc.org</a>
         </p>
