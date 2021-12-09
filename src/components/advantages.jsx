@@ -82,7 +82,9 @@ const Advantages = ({typology}) => {
         <div>
             <article className="why">
                 <SubtopicHeader title={`So Why Don't I See More ${whyTitle[typology].title}?`} highlightWidth={whyTitle[typology].width} />
-                {whyLi}
+                <ul>
+                    {whyLi}
+                </ul>
             </article>
         </div>
     );
