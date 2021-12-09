@@ -3,7 +3,6 @@ import SEO from '../components/seo';
 import AboutHeader from '../components/aboutHeader';
 import SubtopicHeader from '../components/subtopicHeader';
 import Footer from '../components/footer';
-import { useStaticQuery, graphql } from 'gatsby';
 import '../styles/about.scss';
 
 const AboutPage = () => {
