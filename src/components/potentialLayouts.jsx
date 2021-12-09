@@ -43,7 +43,7 @@ const PotentialLayouts = ({ typology }) => {
       <SubtopicHeader title="Potential Layouts" highlightWidth={193} />
       {potentialLayoutParagraphs}
       {potentialLayoutImages}
-      <div className="opportunity__wrapper">
+      {/* <div className="opportunity__wrapper">
         <OpportunityButton
           title={opportunties[typology]['potential layouts'].titleOne}
           description={opportunties[typology]['potential layouts'].textOne}
@@ -52,7 +52,7 @@ const PotentialLayouts = ({ typology }) => {
           title={opportunties[typology]['potential layouts'].titleTwo}
           description={opportunties[typology]['potential layouts'].textTwo}
         />
-      </div>
+      </div> */}
     </article>
   );
 };

@@ -80,7 +80,7 @@
   box-shadow: $shadow-level-four;
   color: $color_font-contrast;
   display: flex;
-  flex-basis: 35%;
+  flex-basis: 43%;
   margin: 1rem 0;
   padding: 1rem;
   width: 17.5rem;
@@ -94,8 +94,10 @@
     }
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
-    margin-top: 3rem;
+    justify-content: space-between;
+    margin: 3rem auto 0;
+    padding-right: 1rem;
+    width: 90%;
   }
 
   &__title {
@@ -118,7 +120,7 @@
     max-width: calc(100% - 2rem);
   }
   &__image {
-    max-width: calc(100% - 2rem);
+    width: calc(100% - 2rem);
   }
 }
 
@@ -149,8 +151,9 @@
     box-shadow: $shadow-level-five;
     display: grid;
     grid-template-columns: 100px 1fr;
-    margin: 1rem 0;
+    margin: 1rem auto;
     padding: 0.5rem 1rem;
+    width: 90%;
   }
   &__icon {
     align-items: center;
@@ -170,7 +173,7 @@
 }
 
 .advantages {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   margin-right: 2rem;
   &__copy {
     &-li {
@@ -184,7 +187,8 @@
   margin-right: 2rem;
   &__copy {
     &-li {
-      padding: 0.5rem 1rem;
+      // padding: 0.5rem 1rem;
+      padding: 0.25rem 0 0.25rem 0.5rem;
     }
   }
 }
