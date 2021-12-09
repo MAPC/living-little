@@ -5,11 +5,11 @@
     "tinyhouse": [
         "As their name implies, tiny houses are tiny – less than 500 square feet. They make highly efficient use of space with features such as creative storage design or lofted beds. Sometimes a group of tiny houses can be clustered around a central open space or community building to form a “tiny house village,” with residents ranging from formerly homeless individuals to middle-income households."
     ],
-    "townhouse": ["Townhouse history TBD"],
-    "sfc": ["Single-family conversions history TBD"],
-    "mixeduse": ["Small scale mixed-use development history TBD"],
+    "townhouse": ["Townhouses are narrow, multi-level homes with individual entrances that share common side wall(s) with other homes. They are typically two- to three-stories tall and can range in size from 1,000 square feet to over 2,000 square feet, making them well-suited for a range of family sizes."],
+    "sfc": ["Single-family homes of many shapes and sizes can be converted into multiple housing units, often with few or no changes to the exterior. New units typically range from 500 to 1,000 square feet, and most houses can accommodate two to four or more units depending on the size of the original house."],
+    "mixeduse": ["Small-scale mixed use developments are typically two- to four-stories tall, with housing located above ground floor retail, restaurant, or other commercial use. Unlike strip malls of the mid-1900s,buildings are close to the sidewalk and parking is located behind."],
     "cottage": [
       "Cottage housing is typically 900-1,500 square feet and one- or two-stories tall. Cottages often have a porch or other community-oriented feature, and the overall site design—including pathways and common open space—is an important part of a cottage development."
     ],
-    "cohousing": ["Cohousing history TBD"]
+    "cohousing": ["Cohousing is not limited to a specific building type. Rather, it is a model based on a shared commitment to living in community that could be employed in many of the Living Little building types. Common forms for cohousing communities include cottages or small single-family homes, duplexes, townhouses, single family conversions, or a mix of these."]
   }
