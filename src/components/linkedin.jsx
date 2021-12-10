@@ -16,7 +16,6 @@ const Linkedin = ({typology}) => {
   };
   
   return (
-  <div className="social-sharing__wrapper">
     <ShareLink link={deepDiveUrl[typology]}>
       {link => (
           <a href={link} target='_blank'>
@@ -24,7 +23,6 @@ const Linkedin = ({typology}) => {
           </a>
       )}
     </ShareLink>
-  </div>
 )};
 
 export default Linkedin;
