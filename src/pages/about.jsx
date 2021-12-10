@@ -4,6 +4,8 @@ import AboutHeader from '../components/aboutHeader';
 import SubtopicHeader from '../components/subtopicHeader';
 import Footer from '../components/footer';
 import '../styles/about.scss';
+import report from '../content/report.pdf'
+
 
 const AboutPage = () => {
   return (
@@ -90,12 +92,27 @@ const AboutPage = () => {
                     <article>
                         <SubtopicHeader title="Additional Resources" highlightWidth={230} />
                         <h1>Living Little</h1>
+                        <a href={report}>Living Little Report</a>
                         <ul>
                         </ul>
                         <h1>Why We Need Housing Options</h1>
+                        <a href="https://www.mapc.org/planning101/local-zoning-is-making-it-difficult-to-build-housing-around-boston-thats-raising-prices-for-everyone/" target="_blank">The State of Zoning for Multifamily Housing in Greater Boston</a>
+                        <br />
+                        <a href="https://metrocommon.mapc.org/reports/10">Crowded In and Priced Out</a>
+                        <br />
+                        <a href="https://www.sightline.org/series/legalizing-inexpensive-housing/">Legalizing Inexpensive Housing</a>
                         <ul>
                         </ul>
                         <h1>For More Information on Small Housing Types</h1>
+                        <a href="https://missingmiddlehousing.com">Missing Middle Housing</a>
+                        <br />
+                        <a href="https://www.oregon.gov/lcd/OP/Documents/SpaceEfficientHousingReport.pdf">Character-Compatible, Space-Efficient Housing Options For Single-Dwelling Neighborhoods</a>
+                        <br />
+                        <a href="http://www.cityofsantacruz.com/home/showdocument?id=8875">Accessory Dwelling Unit Manual</a>
+                        <br />
+                        <a href="https://bylaws.vancouver.ca/bulletin/bulletin-laneway-housing-guide.pdf">Laneway Housing: How-To Guide</a>
+                        <br />
+                        <a href="https://secondunitcentersmc.org">Second Unit Resources Center</a>
                         <ul>
                         </ul>
                     </article>
