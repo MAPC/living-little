@@ -10,7 +10,7 @@ import report from '../content/report.pdf'
 const AboutPage = () => {
   return (
     <div>
-        <SEO title="About living little" />
+        <SEO title="Living Little - About" />
         <AboutHeader siteTitle="living little" />
         <section className="section main-column">
             <div className="about-container">
