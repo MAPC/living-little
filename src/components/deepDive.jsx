@@ -17,7 +17,7 @@ const TypologyDeepDive = ({ typology }) => {
     <section className="section deep-dive-container">
       <div className="main-column" id="select">
         <TypologyDropdown typology={typology} />
-        <SocialSharing />
+        <SocialSharing typology={typology} />
         <Overview typology={typology} />
         <History typology={typology} />
         <PotentialLayouts typology={typology} />
