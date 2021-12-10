@@ -5,15 +5,20 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faPrint } from '@fortawesome/free-solid-svg-icons';
+import Twitter from './twitter';
+import Facebook from './facebook';
+import Linkedin from './linkedin';
+import DeepDivePdf from './deepDivePdf';
 
-const SocialSharing = () => (
+const SocialSharing = ({typology}) => {
+  
+  return (
   <div className="social-sharing__wrapper">
-    <FontAwesomeIcon icon={faTwitter} className="social-sharing__icon social-sharing__icon--twitter" />
-    <FontAwesomeIcon icon={faFacebook} className="social-sharing__icon social-sharing__icon--facebook" />
-    <FontAwesomeIcon icon={faLinkedin} className="social-sharing__icon social-sharing__icon--linkedin" />
-    <FontAwesomeIcon icon={faEnvelope} className="social-sharing__icon social-sharing__icon--email" />
-    <FontAwesomeIcon icon={faPrint} className="social-sharing__icon social-sharing__icon--print" />
+    <Twitter typology={typology} />
+    <Facebook typology={typology} />
+    <Linkedin typology={typology} />
+    <DeepDivePdf typology={typology} />
   </div>
-);
+)};
 
 export default SocialSharing;

@@ -18,15 +18,6 @@ import overviewCohousing1 from "../images/overview-cohousing1.jpg";
 
 
 const Overview = ({ typology }) => {
-  
-  const overviewGif = {
-    adu: aduTemp,
-    tinyhouse: tinyHouseTemp,
-    townhouse: townHouseTemp,
-    mixeduse: mixedUseTemp,
-    cottage: cottageTemp,
-    cohousing: cohousingTemp,
-  };
 
   const overviewSrc = {
       adu: [overviewAdu1],
