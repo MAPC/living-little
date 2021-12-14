@@ -12,7 +12,7 @@ const Footnotes = ({ typology }) => {
     cottage: [],
     tinyhouse: [],
     townhouse: [
-      "awaiting citationm for history"
+      "Awaiting citation for history"
     ],
     sfc: [],
     mixeduse: [],
