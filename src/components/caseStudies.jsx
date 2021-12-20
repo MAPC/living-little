@@ -1,8 +1,5 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
-// import Img from "gatsby-image"
-import { GatsbyImage } from "gatsby-plugin-image"
 import SubtopicHeader from './subtopicHeader';
 
 const CaseStudies = ({ typology }) => {
@@ -17,6 +14,7 @@ const CaseStudies = ({ typology }) => {
             src="//slides.com/mapc/deck/embed?style=light"
             scrolling="no"
             frameBorder="0"
+            title="Case Studies"
             webkitallowfullscreen
             mozallowfullscreen
             allowfullscreen
