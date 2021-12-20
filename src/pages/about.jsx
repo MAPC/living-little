@@ -78,7 +78,7 @@ const AboutPage = () => {
                         <ul>
                             <li>Accessory Dwelling Units</li>
                             <li>Cohousing</li>
-                            <li>Cottages</li>
+                            <li>Cottage Housing</li>
                             <li>Courtyard Buildings</li>
                             <li>Duplexes</li>
                             <li>Fourplexes </li>
@@ -93,26 +93,27 @@ const AboutPage = () => {
                         <SubtopicHeader title="Additional Resources" highlightWidth={230} />
                         <h1>Living Little</h1>
                         <a href={report}>Living Little Report</a>
+                        <a href="https://airtable.com/app04NjSVnA15ZAJN/tblK6DBm0wXoIc4Un/viwD13tLI0t9kWMbR?blocks=hide" target="_blank">A Few Small Questions</a>
                         <ul>
                         </ul>
                         <h1>Why We Need Housing Options</h1>
                         <a href="https://www.mapc.org/planning101/local-zoning-is-making-it-difficult-to-build-housing-around-boston-thats-raising-prices-for-everyone/" target="_blank">The State of Zoning for Multifamily Housing in Greater Boston</a>
                         <br />
-                        <a href="https://metrocommon.mapc.org/reports/10">Crowded In and Priced Out</a>
+                        <a href="https://metrocommon.mapc.org/reports/10" target="_blank">Crowded In and Priced Out</a>
                         <br />
-                        <a href="https://www.sightline.org/series/legalizing-inexpensive-housing/">Legalizing Inexpensive Housing</a>
+                        <a href="https://www.sightline.org/series/legalizing-inexpensive-housing/" target="_blank">Legalizing Inexpensive Housing</a>
                         <ul>
                         </ul>
                         <h1>For More Information on Small Housing Types</h1>
-                        <a href="https://missingmiddlehousing.com">Missing Middle Housing</a>
+                        <a href="https://missingmiddlehousing.com" target="_blank">Missing Middle Housing</a>
                         <br />
-                        <a href="https://www.oregon.gov/lcd/OP/Documents/SpaceEfficientHousingReport.pdf">Character-Compatible, Space-Efficient Housing Options For Single-Dwelling Neighborhoods</a>
+                        <a href="https://www.oregon.gov/lcd/OP/Documents/SpaceEfficientHousingReport.pdf" target="_blank">Character-Compatible, Space-Efficient Housing Options For Single-Dwelling Neighborhoods</a>
                         <br />
-                        <a href="http://www.cityofsantacruz.com/home/showdocument?id=8875">Accessory Dwelling Unit Manual</a>
+                        <a href="http://www.cityofsantacruz.com/home/showdocument?id=8875" target="_blank">Accessory Dwelling Unit Manual</a>
                         <br />
-                        <a href="https://bylaws.vancouver.ca/bulletin/bulletin-laneway-housing-guide.pdf">Laneway Housing: How-To Guide</a>
+                        <a href="https://bylaws.vancouver.ca/bulletin/bulletin-laneway-housing-guide.pdf" target="_blank">Laneway Housing: How-To Guide</a>
                         <br />
-                        <a href="https://secondunitcentersmc.org">Second Unit Resources Center</a>
+                        <a href="https://secondunitcentersmc.org" target="_blank">Second Unit Resources Center</a>
                         <ul>
                         </ul>
                     </article>

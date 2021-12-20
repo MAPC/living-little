@@ -25,7 +25,7 @@ const TypologyDeepDive = ({ typology }) => {
         <Advantages typology={typology} />
         <Questions typology={typology} />
         {/* <CaseStudies typology={typology} /> */}
-        <Footnotes typology={typology} />
+        {/* <Footnotes typology={typology} /> */}
         <AnchorLink to={`#select`} className="anchor__wrapper">
           <FontAwesomeIcon icon={faArrowAltCircleUp} className="anchor__icon" />
           <span className="anchor__helper-text">Select another typology</span>
