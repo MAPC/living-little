@@ -22,7 +22,7 @@ const Advantages = ({typology}) => {
             width: "355"
         },
         cottage: {
-            title: "Cottage Developments",
+            title: "Cottage Housing",
             width: "532"
         },
         tinyhouse: {
@@ -38,7 +38,7 @@ const Advantages = ({typology}) => {
             width: "422" // need to adjust
         },
         mixeduse: {
-            title: "Small Scale Mixed-Use Developments",
+            title: "Small-Scale Mixed-use Developments",
             width: "682"
         },
         cohousing: {
