@@ -1,9 +1,5 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-// import Img from "gatsby-image"
-import { GatsbyImage } from "gatsby-plugin-image"
-import { useStaticQuery, graphql } from 'gatsby';
-import headerHouse from '../images/header-house.svg';
 
 const Header = ({ siteTitle }) => {
   return (
