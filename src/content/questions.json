@@ -160,12 +160,16 @@
     "cohousing": {
       "questions": [
         {
-          "q": "What is the impact of cohousing on neighborhood parking, services, and infrastructure?",
-          "a": "A well-structured cohousing project will not differ substantively from a more typical multifamily development with generous shared spaces. [SA1]"
+          "q": "I don’t want to live next to a hippie commune!",
+          "a": "Massachusetts has several longstanding cohousing communities that provide concrete examples of how this type of housing functions and serves as an asset to its residents. From the outside, most of these are indistinguishable from a well-designed housing development."
         },
         {
-          "q": "Need questions?",
-          "a": "Need answers."
+          "q": "Still, the people who live in cohousing must be crazy to give up their privacy. People in my neighborhood are more traditional – I don’t think cohousing residents would fit in here.",
+          "a": "Cohousing residents don’t sacrifice their privacy - each household has their own private home that is no different from a conventional house or apartment. People who move into cohousing simply want to live in a place where their neighbors know and support each other. This describes many small Massachusetts towns, so in this regard cohousing is a natural fit! Cohousing is often attractive to seniors who are at risk of isolation and would benefit from a community of diverse interests and ages living interconnectedly."
+        },
+        {
+          "q": "What is the impact of cohousing on neighborhood parking, services, and infrastructure?",
+          "a": "A well-structured cohousing project will not differ substantively from a more typical multifamily development with generous shared spaces. [SA1]"
         }
       ],
       "history": {
