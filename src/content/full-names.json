@@ -1,9 +1,9 @@
 {
-  "adu": "Accessory dwelling units",
-  "cottage": "Cottage developments",
-  "tinyhouse": "Tiny houses",
+  "adu": "Accessory Dwelling Units",
+  "cottage": "Cottage Housing",
+  "tinyhouse": "Tiny Houses",
   "townhouse": "Townhouses",
-  "sfc": "Single-family Conversions",
-  "mixeduse": "Small scale mixed-use development",
+  "sfc": "Single Family Home Conversions",
+  "mixeduse": "Small-Scale Mixed-use Development",
   "cohousing": "Cohousing"
 }

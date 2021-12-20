@@ -78,7 +78,7 @@ const AboutPage = () => {
                         <ul>
                             <li>Accessory Dwelling Units</li>
                             <li>Cohousing</li>
-                            <li>Cottages</li>
+                            <li>Cottage Housing</li>
                             <li>Courtyard Buildings</li>
                             <li>Duplexes</li>
                             <li>Fourplexes </li>
