@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import ShareLink from 'react-twitter-share-link';
+import definitions from '../content/definitions.json';
 
 const Twitter = ({typology}) => {
   
@@ -16,7 +17,7 @@ const Twitter = ({typology}) => {
   };
   
   return (
-    <ShareLink link={deepDiveUrl[typology]}>
+    <ShareLink text={definitions[typology]} link={deepDiveUrl[typology]}>
       {link => (
           <a href={link} target='_blank'>    
             <FontAwesomeIcon icon={faTwitter} className="social-sharing__icon social-sharing__icon--twitter" />

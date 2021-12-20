@@ -16,7 +16,6 @@ const SocialSharing = ({typology}) => {
   <div className="social-sharing__wrapper">
     <Twitter typology={typology} />
     <Facebook typology={typology} />
-    <Linkedin typology={typology} />
     <DeepDivePdf typology={typology} />
   </div>
 )};
