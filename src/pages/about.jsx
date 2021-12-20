@@ -4,7 +4,7 @@ import AboutHeader from '../components/aboutHeader';
 import SubtopicHeader from '../components/subtopicHeader';
 import Footer from '../components/footer';
 import '../styles/about.scss';
-import report from '../content/report.pdf'
+import report from '../content/SS_LL_Report_Final.pdf'
 
 
 const AboutPage = () => {
