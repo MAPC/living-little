@@ -93,6 +93,7 @@ const AboutPage = () => {
                         <SubtopicHeader title="Additional Resources" highlightWidth={230} />
                         <h1>Living Little</h1>
                         <a href={report}>Living Little Report</a>
+                        <br />
                         <a href="https://airtable.com/shrHGXjANVq5160O9/tblK6DBm0wXoIc4Un" target="_blank">A Few Small Questions</a>
                         <ul>
                         </ul>
