@@ -6,13 +6,13 @@ import ShareLink from 'react-facebook-share-link'
 const Facebook = ({typology}) => {
   
   const deepDiveUrl = {
-    adu: "https://mapc.github.io/living-little/adu#select",
-    cottage: "https://mapc.github.io/living-little/cottage/#select",
-    tinyhouse: "https://mapc.github.io/living-little/tinyhouse#select",
-    townhouse: "https://mapc.github.io/living-little/townhouse#select",
-    sfc: "https://mapc.github.io/living-little/sfc#select",
-    mixeduse: "https://mapc.github.io/living-little/mixeduse#select",
-    cohousing: "https://mapc.github.io/living-little/cohousing#select"
+    adu: "https://living-little.mapc.org/adu#select",
+    cottage: "https://living-little.mapc.org/cottage/#select",
+    tinyhouse: "https://living-little.mapc.org/tinyhouse#select",
+    townhouse: "https://living-little.mapc.org/townhouse#select",
+    sfc: "https://living-little.mapc.org/sfc#select",
+    mixeduse: "https://living-little.mapc.org/mixeduse#select",
+    cohousing: "https://living-little.mapc.org/cohousing#select"
   };
   
   return (
