@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Living Little`,
-    description: `Production site for MAPC\'s Living Little toolkit`,
+    description: `MAPC\'s Living Little toolkit`,
     author: `@MAPCMetroBoston`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
