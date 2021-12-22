@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: '/living-little',
   siteMetadata: {
     title: `Living Little`,
     description: `Production site for MAPC\'s Living Little toolkit`,
