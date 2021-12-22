@@ -34,8 +34,8 @@ const GridItem = ({ typology }) => {
         className="cell__image"
         style={{ 
           display: 'block',
-          width: 640,
-          height: 457 }}
+          objectFit: 'cover'
+        }}
       />
       <div
         className="cell__overlay"
