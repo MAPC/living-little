@@ -21,20 +21,18 @@
 
 .cell {
   &__wrapper {
-    margin: 1.5%;
+    margin: 1.5% 1.5% 7%;
     max-height: 20rem;
     object-fit: contain;
     position: relative;
     width: 47%;
   }
-
   &__image {
     height: 457px;
     max-height: 100%;
     max-width: 100%;
     width: 640px;
   }
-
   &__title {
     background-color: $color_bg-violet;
     color: rgba(255,255,255,1.7);
@@ -44,7 +42,6 @@
     position: absolute;
     z-index: 10;
   }
-
   &__overlay {
     -webkit-transition: background-color .25s;
     height: 100%;

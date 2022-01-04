@@ -22,12 +22,23 @@ const Overview = ({ typology }) => {
       cohousing: [overviewCohousing1]
   };
 
+  const imageCredit = {
+    adu: <p>Photo Credit: <a href="https://www.flickr.com/photos/sightline_middle_housing/48140065193/">Sightline Institute</a><br/>Location: Tacoma</p>,
+    cottage: <p>Photo Credit: <a href="https://www.flickr.com/photos/studio-d/albums/154825">Karen Delucas</a></p>,
+    tinyhouse: <p>Photo Credit: <a href="https://www.flickr.com/photos/faircompanies/44397498292/">Nicolás Boullosa</a><br/>Location: CA</p>,
+    townhouse: <p>Photo Credit: Union Studio (Architect) and Nat Rea (photographer)<br/>Location: North Cove Landing</p>,
+    sfc: <p>Photo Credit: Alex Koppelman<br/>Location: Newton, MA</p>,
+    mixeduse: <p>Photo Credit: Lydia</p>,
+    cohousing: <p>Photo Credit: <a href="https://www.flickr.com/photos/punktoad/albums/72157649779167604">PunkToad</a><br/>Location: Swans Market, Oakland</p>,
+  }
+
   const overviewImages = overviewSrc[typology].map((image) => <img src={image} alt={typology} className="overview__image" />)
 
   return (
     <article className="article overview">
       <p>{definitions[typology]}</p>
       {overviewImages}
+      {imageCredit[typology]}
     </article>
   );
 };
