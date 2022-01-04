@@ -7,6 +7,7 @@ import '../styles/about.scss';
 import report from '../content/SS_LL_Report_Final.pdf';
 import questions from '../content/about-questions.json';
 import icon from "../images/question-icon.png";
+import adu from "../images/grid/main-adu.jpg";
 
 const AboutPage = () => {
 
@@ -44,6 +45,7 @@ const AboutPage = () => {
                     </article>
                     <article>
                         <SubtopicHeader title="Benefits of Living Little" highlightWidth={261} />
+                        <img src={adu} width="100%" height="auto" />
                         <p>Communities throughout the region need a variety of housing types and sizes to retain and attract a diverse mix of households. Small housing types promote:</p>
                         <ul>
                             <li>Aging in place. Senior households tend to consist of one or two people, who are not often served by traditional large, single-family houses found in most suburban communities. Many seniors who wish to downsize have difficulty finding options within their communities, let alone options they can afford, and instead choose to remain in houses that do not meet their accessibility needs or are difficult or costly to maintain.</li>
