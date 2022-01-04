@@ -4,10 +4,25 @@ import AboutHeader from '../components/aboutHeader';
 import SubtopicHeader from '../components/subtopicHeader';
 import Footer from '../components/footer';
 import '../styles/about.scss';
-import report from '../content/SS_LL_Report_Final.pdf'
-
+import report from '../content/SS_LL_Report_Final.pdf';
+import questions from '../content/about-questions.json';
+import icon from "../images/question-icon.png";
 
 const AboutPage = () => {
+
+    const questionDivs = questions["questions"].map((elem) => 
+        // console.log("elem", elem["q"])
+        <div className="questions__content">
+            <div className="questions__icon">
+            <img src={icon}/>
+            </div>
+            <div className="questions__copy">
+            <p className="questions__copy-question">{elem["q"]}</p>
+            <p>{elem["a"]}</p>
+            </div>
+        </div>
+    );
+
   return (
     <div>
         <SEO title="Living Little - About" />
@@ -42,34 +57,7 @@ const AboutPage = () => {
                     </article>
                     <article>
                         <SubtopicHeader title="Just a Few Little Questions" highlightWidth={294} />
-                        <p>If small housing is so great, why isn’t it getting built in my town?</p>
-                        <ul>
-                            <li>The type of housing that gets built isn’t only about what people want; it’s also influenced by land costs and town regulations. Check out this video to understand why small housing is sometimes difficult to build. </li>
-                        </ul>
-                        <p>If my town builds more housing, even smaller housing, how will that impact our schools?</p>
-                        <ul>
-                            <li>Several Massachusetts studies have found that concerns about new housing development increasing school enrollment are not born out. In fact, a 2017 MAPC study found no correlation between housing construction and school enrollment: in communities that have seen substantial housing construction, school enrollment barely changed; and districts with the largest student increases saw very little housing production.</li>
-                        </ul>
-                        <p>How is that possible?</p>
-                        <ul>
-                            <li>Most increases in school-age children are associated with turnover in the existing housing supply, not construction of new units. The majority of suburban communities in the MAPC region are seeing sustained declines in enrollment: the Commonwealth’s public school enrollment (including charter schools) peaked in 2002 and has since declined by 3%. Even in communities where substantial housing construction has occurred, any corresponding growth in households has not been enough to offset the natural demographic decline in school-age residents associated with children of Baby Boomers aging into adulthood.</li>
-                        </ul> 
-                        <p>What about increased traffic?</p> 
-                        <ul>
-                            <li>There is no evidence that smaller housing contributes to increased traffic and parking issues. One of the main reasons is that small housing typically only makes up a sliver of most suburban communities’ housing supply, especially when compared to single-family houses. By design, suburban single-family houses encourage households to own more than one vehicle due to their scale and availability of off-street parking. Meanwhile, smaller housing options generally consist of one-to two-bedrooms with fewer parking spaces, limiting the number of people and vehicles.</li>
-                        </ul>  
-                        <p>If smaller housing is built in my neighborhood, won’t my property value go down?</p>
-                        <ul>
-                            <li>Data on how Living Little typologies affect property prices is still limited, but studies show that smart growth policies—which favor compact, well-planned development and walkability—have become highly desirable and may actually increase property values.</li>
-                        </ul>
-                        <p>Won’t these different types of housing stick out like a sore thumb? </p>
-                        <ul>
-                            <li>Zoning bylaws can be written to ensure new housing is respectful of existing architectural design. Town officials can add language that ensures new Living Little housing complements the neighborhood, and can require developers to undergo a design review process. Town officials can also provide design guidelines or create form-based codes to foster high-quality, predictable development.</li>
-                        </ul>
-                        <p>I don’t want my town to be overrun with people!</p>
-                        <ul>
-                            <li>Small housing can fill a gap in the housing stock, but there is no evidence to indicate it leads to overcrowded communities. Factors such as land availability, zoning, market preferences, and development costs limit the potential for widespread smaller housing development and therefore its impact on a community. The nature of Living Little typologies and their incremental, small-scale development largely prevents them from spurring dramatic neighborhood change.</li>
-                        </ul>
+                        {questionDivs}
                     </article>
                     <article>
                         <SubtopicHeader title="Project Background" highlightWidth={213} />
