@@ -60,6 +60,7 @@ const AboutPage = () => {
                     <article>
                         <SubtopicHeader title="Just a Few Little Questions" highlightWidth={294} />
                         {questionDivs}
+                        <h1 style={{marginLeft: 30}}><a href="https://airtable.com/shrHGXjANVq5160O9/tblK6DBm0wXoIc4Un">See the full list and sources of all of the Small Questions about Living Little</a></h1>
                     </article>
                     <article>
                         <SubtopicHeader title="Project Background" highlightWidth={213} />
