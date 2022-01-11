@@ -4,6 +4,10 @@
   padding: 4rem 0;
 }
 
+img {
+  box-shadow: $shadow-level-four;
+}
+
 .social-sharing {
   &__wrapper {
     @include media(large) {
