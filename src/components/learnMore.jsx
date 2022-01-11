@@ -1,6 +1,6 @@
 import React from 'react';
 import CallToAction from './callToAction';
-import report from '../content/SS_LL_Report_Final.pdf'
+import report from '../content/Living-Little-Full-Report.pdf'
 
 const LearnMore = () => (
   <section className="section main-column">

@@ -4,7 +4,7 @@ import AboutHeader from '../components/aboutHeader';
 import SubtopicHeader from '../components/subtopicHeader';
 import Footer from '../components/footer';
 import '../styles/about.scss';
-import report from '../content/SS_LL_Report_Final.pdf';
+import report from '../content/Living-Little-Full-Report.pdf';
 import questions from '../content/about-questions.json';
 import icon from "../images/question-icon.png";
 import adu from "../images/grid/main-adu.jpg";
@@ -12,7 +12,6 @@ import adu from "../images/grid/main-adu.jpg";
 const AboutPage = () => {
 
     const questionDivs = questions["questions"].map((elem) => 
-        // console.log("elem", elem["q"])
         <div className="questions__content">
             <div className="questions__icon">
             <img src={icon}/>
