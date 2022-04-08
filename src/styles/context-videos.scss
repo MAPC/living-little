@@ -1,14 +1,15 @@
 .context-videos {
     &-embed {
-        height: 0;
+        height: 22rem;
         margin: 2rem 0 4rem;
-        padding-bottom: 56.25%; /* 16:9 */
-        position: relative;
+        position: relative;        
+        display: flex;
+        align-items: center;
+        justify-content: center;
         iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
+            display: flex;
+            justify-content: center;
+            width: 70%;
             height: 100%;
         }
     }

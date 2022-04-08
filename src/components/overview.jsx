@@ -9,7 +9,7 @@ import overviewCottage1 from "../images/overview-cottage1.jpg";
 import overviewSfc1 from "../images/overview-sfc1.jpg";
 import overviewTownhouse1 from "../images/overview-townhouse1.jpg";
 import overviewMixedUse1 from "../images/overview-mixeduse1.jpg";
-import overviewCohousing1 from "../images/overview-cohousing1.jpg";
+import overviewCohousing1 from "../images/Cohousing_25.jpg";
 
 
 const Overview = ({ typology }) => {
@@ -25,13 +25,13 @@ const Overview = ({ typology }) => {
   };
 
   const imageCredit = {
-    adu: <p>Photo Credit: <a href="https://www.flickr.com/photos/sightline_middle_housing/48140065193/">Sightline Institute</a><br/>Location: Tacoma</p>,
-    cottage: <p>Photo Credit: <a href="https://www.flickr.com/photos/studio-d/albums/154825">Karen Delucas</a></p>,
-    tinyhouse: <p>Photo Credit: <a href="https://www.flickr.com/photos/faircompanies/44397498292/">Nicolás Boullosa</a><br/>Location: CA</p>,
-    townhouse: <p>Photo Credit: Union Studio (Architect) and Nat Rea (photographer)<br/>Location: North Cove Landing</p>,
-    sfc: <p>Photo Credit: Alex Koppelman<br/>Location: Newton, MA</p>,
-    mixeduse: <p>Photo Credit: Lydia</p>,
-    cohousing: <p>Photo Credit: <a href="https://www.flickr.com/photos/punktoad/albums/72157649779167604">PunkToad</a><br/>Location: Swans Market, Oakland</p>,
+    adu: <p>Photo Credit: <a href="https://www.flickr.com/photos/sightline_middle_housing/48376579112/in/photolist-2gGSByd-2gHm4VH-2gAXCVY-2gX9SfB-2gX98XQ-2gX9SBt-2gGSFJC-2gX995i-2gTDREz-2gTCYku-2gTCYif-2gX9SQV-2gTCYpn-2gTDRHa-2gGSt1m-2gTDRUN-29kifcg-2gTDRLb-2gAX5f6-2gTDRQ9-2gGStb1-2gAX59K-2gTDRMy-2gAX5zE-2gmEzVw-2gGPSB5-2gAX5nq-2gTCYz7-2gTDRRg-2gmF2hz-2gTCYBb-2gGRJu3-2gGPb3d-2gTCYDa-2gTCYFj-2gGPSXa-2diNYtx-2gGP6mz-2gAXDTE-2gGRMkV-2gTCYKn-2gAX6bj-2gTDS4k-2gTDRZY-2gmF3kB-2gkYqd2-2gTCYNo-2gTDS9R-2gTCYQ2-2gAUquF">Sightline Institute</a></p>,
+    cottage: <p>Photo Credit: <a href="http://unionstudioarch.com/projects/capitol-square/">Union Studio Architecture</a> and Nat Rea Photography</p>,
+    tinyhouse: <p>Photo Credit: <a href="https://www.flickr.com/photos/faircompanies/44397498292/">Nicolás Boullosa</a></p>,
+    townhouse: <p>Photo Credit: <a href="https://www.flickr.com/photos/sightline_middle_housing/48376579112/in/photolist-2gGSByd-2gHm4VH-2gAXCVY-2gX9SfB-2gX98XQ-2gX9SBt-2gGSFJC-2gX995i-2gTDREz-2gTCYku-2gTCYif-2gX9SQV-2gTCYpn-2gTDRHa-2gGSt1m-2gTDRUN-29kifcg-2gTDRLb-2gAX5f6-2gTDRQ9-2gGStb1-2gAX59K-2gTDRMy-2gAX5zE-2gmEzVw-2gGPSB5-2gAX5nq-2gTCYz7-2gTDRRg-2gmF2hz-2gTCYBb-2gGRJu3-2gGPb3d-2gTCYDa-2gTCYFj-2gGPSXa-2diNYtx-2gGP6mz-2gAXDTE-2gGRMkV-2gTCYKn-2gAX6bj-2gTDS4k-2gTDRZY-2gmF3kB-2gkYqd2-2gTCYNo-2gTDS9R-2gTCYQ2-2gAUquF">Sightline Institute</a></p>,
+    sfc: <p>Photo Credit: Alex Koppelman</p>,
+    mixeduse: <p>Photo Credit: <a href="http://unionstudioarch.com/projects/capitol-square/">Union Studio Architecture</a> and Nat Rea Photography</p>,
+    cohousing: <p>Photo Credit: <a href="https://www.flickr.com/photos/antoniseb/13909899889/">Flickr user Jay Cross</a></p>,
   }
 
   const definitions = {

@@ -8,6 +8,7 @@ import report from '../content/Living-Little-Full-Report.pdf';
 import questions from '../content/about-questions.json';
 import icon from "../images/question-icon.png";
 import adu from "../images/grid/main-adu.jpg";
+import { AnchorLink } from 'gatsby-plugin-anchor-links';
 
 const AboutPage = () => {
 
@@ -31,7 +32,7 @@ const AboutPage = () => {
             <div className="about-container">
                 <div className="about-text">
                     <article>
-                        <SubtopicHeader title="About" highlightWidth={77} />
+                        <SubtopicHeader title="Why do we need smaller housing options?" highlightWidth={450} />
                         <p>The Greater Boston region is experiencing a housing crisis stemming from a lack of affordable housing and appropriate housing options for today’s range of household types and incomes. This shortage is not just about a lack of housing overall, but also a lack of different types of housing, especially smaller and therefore usually lower-cost options.</p>
                         <ul>
                             <li>Outside of Boston’s inner core, most of the homes in the region (71%) are single-family homes (ACS 2014-18).</li>
@@ -57,14 +58,14 @@ const AboutPage = () => {
                         </ul>
                     </article>
                     <article>
-                        <SubtopicHeader title="Just a Few Little Questions" highlightWidth={294} />
+                        <SubtopicHeader title="A Few Small Questions" highlightWidth={250} />
                         {questionDivs}
                         <h1 style={{marginLeft: 30}}><a href="https://airtable.com/shrHGXjANVq5160O9/tblK6DBm0wXoIc4Un">See the full list and sources of all of the Small Questions about Living Little</a></h1>
                     </article>
                     <article>
                         <SubtopicHeader title="Project Background" highlightWidth={213} />
                         <p>Living Little provides information on alternative small housing types that are appropriate for Greater Boston’s suburban communities. The project began as a study that MAPC conducted with five towns (Foxborough, Medfield, Medway, Sherborn, and Stoughton) that were interested in exploring housing options for younger households and seniors. The first Living Little report studied smaller housing types that—unlike the large, luxury single-family homes frequently built in these communities—could serve as so-called “missing middle housing” thanks to its natural affordability compared to large homes (and depending on market forces). Additional Living Little studies are adding to this body of work by considering additional small housing types with five South Shore towns (Cohasset, Duxbury, Hingham, Norwell, and Scituate) and by taking a deeper look at cottage zoning, one of the housing types considered in the first report.</p>
-                        <h1>Living Little Housing Types to Explore:</h1>
+                        <h1>Living Little Housing Types to <AnchorLink to={`/#select`}>Explore</AnchorLink>:</h1>
                         <ul>
                             <li>Accessory Dwelling Units</li>
                             <li>Cohousing</li>
@@ -88,23 +89,23 @@ const AboutPage = () => {
                         <ul>
                         </ul>
                         <h1>Why We Need Housing Options</h1>
-                        <a href="https://www.mapc.org/planning101/local-zoning-is-making-it-difficult-to-build-housing-around-boston-thats-raising-prices-for-everyone/" target="_blank">The State of Zoning for Multifamily Housing in Greater Boston</a>
+                        <a href="https://www.mapc.org/planning101/local-zoning-is-making-it-difficult-to-build-housing-around-boston-thats-raising-prices-for-everyone/" target="_blank">The State of Zoning for Multifamily Housing in Greater Boston, 2019</a>
                         <br />
-                        <a href="https://metrocommon.mapc.org/reports/10" target="_blank">Crowded In and Priced Out</a>
+                        <a href="https://metrocommon.mapc.org/reports/10" target="_blank">Crowded In and Priced Out: Why It’s so Hard to Find a Family-Sized Unit in Greater Boston</a>
                         <br />
-                        <a href="https://www.sightline.org/series/legalizing-inexpensive-housing/" target="_blank">Legalizing Inexpensive Housing</a>
+                        <a href="https://www.sightline.org/series/legalizing-inexpensive-housing/" target="_blank">Legalizing Inexpensive Housing Series from the Sightline Institute</a>
                         <ul>
                         </ul>
                         <h1>For More Information on Small Housing Types</h1>
                         <a href="https://missingmiddlehousing.com" target="_blank">Missing Middle Housing</a>
                         <br />
-                        <a href="https://www.oregon.gov/lcd/OP/Documents/SpaceEfficientHousingReport.pdf" target="_blank">Character-Compatible, Space-Efficient Housing Options For Single-Dwelling Neighborhoods</a>
+                        <a href="https://www.oregon.gov/lcd/OP/Documents/SpaceEfficientHousingReport.pdf" target="_blank">Character-Compatible, Space-Efficient Housing Options For Single-Dwelling Neighborhoods (Oregon)</a>
                         <br />
-                        <a href="http://www.cityofsantacruz.com/home/showdocument?id=8875" target="_blank">Accessory Dwelling Unit Manual</a>
+                        <a href="http://www.cityofsantacruz.com/home/showdocument?id=8875" target="_blank">Accessory Dwelling Unit Manual (Santa Cruz, CA)</a>
                         <br />
-                        <a href="https://bylaws.vancouver.ca/bulletin/bulletin-laneway-housing-guide.pdf" target="_blank">Laneway Housing: How-To Guide</a>
+                        <a href="https://bylaws.vancouver.ca/bulletin/bulletin-laneway-housing-guide.pdf" target="_blank">Laneway Housing: How-To Guide (Vancouver)</a>
                         <br />
-                        <a href="https://secondunitcentersmc.org" target="_blank">Second Unit Resources Center</a>
+                        <a href="https://secondunitcentersmc.org" target="_blank">Second Unit Resources Center (San Mateo County, CA)</a>
                         <ul>
                         </ul>
                     </article>

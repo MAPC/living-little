@@ -70,6 +70,14 @@ p {
   margin: 1rem;
 }
 
+a {
+  color: $color_accent-blue;
+}
+
 a:hover {
-  color: $color_highlight-yellow;
+  color: $color_highlight-yellow !important;
+}
+
+a:visited {
+  color: $color_bg-violet;
 }
