@@ -6,8 +6,7 @@
         "ADUs can provide extra income for homeowners on fixed incomes."
       ],
       "why": [
-        "Many towns do not allow ADUs, or only allow them under very limited conditions, such as requiring that the main house be built before a certain year or requiring that whoever lives in the ADU be related to a person living in the main house. These rules can be difficult to change because, in Massachusetts, zoning changes require a 2/3 majority at Town Meeting.",
-        "Because ADUs are most often built by regular homeowners, rather than professional developers, it can be difficult to finance them. It’s most common for homeowners to use a home equity loan, but other options are becoming more common."
+        "Many towns do not allow ADUs, or only allow them under very limited conditions, such as requiring that the main house be built before a certain year or requiring that whoever lives in the ADU be related to a person living in the main house. These rules can be difficult to change because, in Massachusetts, zoning changes require a 2/3 majority at Town Meeting."
       ]
     },
     "tinyhouse": {
@@ -18,7 +17,7 @@
         "Thanks to television shows and social media, there is widespread interest in tiny houses, and they are becoming better understood by the general population."
       ],
       "why": [
-        "Tiny houses on wheels are usually permitted as a recreational vehicle (RV) or a mobile home, and are only allowed to be located in trailer parks or other areas where mobile homes are permitted. Many towns do not allow them at all.",
+        "Tiny houses on wheels are usually permitted as a recreational vehicle (RV) or a mobile home, and are often only allowed to be located in trailer parks or other areas where mobile homes are permitted. Many towns do not allow them at all.",
         "Tiny houses without wheels are usually permitted as a detached accessory dwelling unit, which in many towns are either not permitted or are allowed only under restrictive conditions.",
         "It can be challenging to connect a tiny house to basic infrastructure utilities, such as water, sewer, and electricity, in a safe manner that meets the town’s regulations. Some towns have addressed this by requiring that the tiny house be attached to a foundation or connected to town utilities.",
         "Concerns about building standards, health, and fire safety can deter town officials from allowing tiny houses. Furthermore, self-built tiny houses may not always meet building standards, and would need to be upgraded to comply with health and fire codes.",
@@ -28,7 +27,7 @@
     "townhouse": {
       "advantages": [
         "Townhouses now come in many different shapes and sizes, and they represent a single-family housing option that tends to be more affordable than large-lot detached homes.",
-        "Townhouses have long been appealing because they balance of privacy in a compact, efficient building footprint."
+        "Townhouses have long been appealing because they balance aspects of single-family detached houses, such as an individual entry and back yard, with a compact, efficient building footprint."
       ],
       "why": [
         "In many towns’ zoning bylaws, large setback requirements and lot coverage restrictions can effectively prohibit townhouses by precluding narrow parcels and/or common walls along lot lines.",
@@ -40,7 +39,8 @@
       "advantages": [
         "Single-family conversions are a great way to preserve historic homes.",
         "Converting single family houses of any style is a way to utilize existing housing stock to meet the needs of today’s smaller households.",
-        "Because they were originally designed as single-family houses and are already part of the neighborhood, most conversions are indistinguishable from other single-family houses and match the context of most areas."
+        "Because they were originally designed as single-family houses and are already part of the neighborhood, most conversions are indistinguishable from other single-family houses and match the context of most areas.",
+        "Homeowners who are interested in the potential rental income from a single-family home conversion while maintaining the majority of their space, could add an internal accessory dwelling unit."
       ],
       "why": [
         "You may just not notice them! Most single family home conversions do not dramatically change the external appearance of a home, leaving the character of the house and neighborhood unchanged.",
@@ -57,7 +57,7 @@
       ],
       "why": [
         "Many zoning bylaws require a special permit for mixed-use development or prohibit it altogether.",
-        "Many towns require a high number of parking spaces for retail, restaurants, or entertainment. This often mean it’s easier for a developer to build a conventional strip mall with an expansive parking lot.",
+        "Many towns require a high number of parking spaces for retail, restaurants, or entertainment. This often means it’s easier for a developer to build a conventional strip mall with an expansive parking lot.",
         "The differing timelines for residential development and commercial leasing can make financing difficult.",
         "Retrofitting existing strip malls presents unique challenges, including meeting the water and sewer requirements for housing, upgrading outdated structures, and incorporating pedestrian-friendly features in an area that was originally designed primarily for cars."
       ]
@@ -65,7 +65,7 @@
     "cottage": {
       "advantages": [
         "Cottage designs are often familiar to residents currently living in larger homes, and are unlikely to feel out-of-place in towns that have mostly detached single-family houses.",
-        "New zoning rules and design guidelines specifically for cottage developments can encourage cottage development that fits into existing communities.",
+        "New zoning rules and design guidelines specifically for cottages can ensure that they will fit into existing communities.",
         "Cottage developments can create a transition between retail areas and neighborhoods with larger single-family homes.",
         "Cottage developments allow for creative approaches to parking that best suit the site.",
         "The common open space at the heart of a cottage development is intended to foster a sense of community among neighbors.",
@@ -73,8 +73,8 @@
       ],
       "why": [
           "In many suburban towns, cottage clustered development is prohibited or requires an extensive approvals process.",
-          "Sometimes, the relatively higher density of cottage housing can be concerning by towns accustomed to single-family houses on large lots.",
-          "In smaller towns with limited water and sewer infrastructure, especially those that rely on septic systems, the higher density of cottage housing can pose a burden. However, cottage houses generally have fewer bedrooms and therefore accommodate fewer people than typical single-family houses, and cottage development site designs can be flexible enough to creatively approach limits to water and sewer capacity."
+          "Sometimes, the relatively higher density of cottage housing can be concerning to residents in towns accustomed to single-family houses on large lots.",
+          "In smaller towns with limited water and sewer infrastructure, especially those that rely on septic systems, the higher density of cottage housing can pose a burden. However, cottage houses generally have fewer bedrooms and therefore accommodate fewer people than typical single-family houses, and cottage development site plans can be creatively designed to address water and sewer capacity limits."
       ]
     },
     "cohousing": {

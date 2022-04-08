@@ -2,16 +2,16 @@
     "adu": {
       "questions": [
         {
-          "q": "How can my town’s sewer system handle this?",
+          "q": "How can my town's sewer system handle this?",
           "a": "The small size of ADUs makes their impact on public infrastructure minimal, especially when compared to large single-family homes or multifamily dwellings. For example, the impact of ten ADUs with two people living in each would have the same impact as that of four large single-family houses with five people living in each."
         },
         {
           "q": "If my neighbor builds an ADU, will my property values go down?",
-          "a":  "That’s unlikely. There is no conclusive evidence that ADUs negatively impact property values; on the contrary, ADUs can increase surrounding property values.  Zoning bylaws can also be crafted to ensure the design of ADUs is in keeping with the surrounding neighborhood. [1]"
+          "a":  "That's unlikely. There is no conclusive evidence that ADUs negatively impact property values; on the contrary, ADUs can increase surrounding property values.  Zoning bylaws can also be crafted to ensure the design of ADUs is in keeping with the surrounding neighborhood. [1]"
         },
         {
           "q": "What if these increase the number of schoolchildren in town?",
-          "a": "ADUs’ impact on school system enrollment is usually very small, because ADUs are overwhelmingly occupied by small households without school-age children."
+          "a": "ADUs' impact on school system enrollment is usually very small, because ADUs are overwhelmingly occupied by small households without school-age children."
         }
       ],
       "history": {
@@ -31,7 +31,7 @@
     "tinyhouse": {
       "questions": [
         {
-          "q": "If we allow tiny houses in my town, what if there’s a huge influx of transient people building tiny houses?",
+          "q": "If we allow tiny houses in my town, what if there's a huge influx of transient people building tiny houses?",
           "a": "Despite their popularity in the media, only a small subset of people are willing to live in a tiny house, limiting their impact and prevalence. Zoning that limits the use of tiny houses as short-term rentals can to ensure they serve those who want to live in the community, and towns can limit the number of tiny houses permitted."
         }
       ],
@@ -52,12 +52,12 @@
     "townhouse": {
       "questions": [
         {
-          "q": "What if townhouses are too urban for my community?",
+          "q": "Won't townhouses be too urban for my community?",
           "a": "Appropriate design standards can ensure that townhouses are built in alignment with existing neighborhood character and promote pedestrian activities. In addition, at two- to three-stories tall, most townhouses are of similar scale to detached single family homes."
         },
         {
-          "q": "If townhouses are large enough for families, won‘t they increase school enrollment?",
-          "a": "Several studies show little correlation between new housing development and increased school enrollment. [1]"
+          "q": "If townhouses are large enough for families, won't they increase school enrollment?",
+          "a": "Several Massachusetts studies show little correlation between new housing development and increased school enrollment. Most increases in school-age children are associated with turnover in the existing housing supply, not construction of new units. The majority of suburban communities in the MAPC region are actually seeing sustained declines in enrollment. [1]"
         }
       ],
       "history": {
@@ -77,12 +77,12 @@
     "sfc": {
       "questions": [
         {
-          "q": "Won’t single family home conversions cause overcrowding?",
+          "q": "Won't single family home conversions cause overcrowding?",
           "a": "Overcrowding is unlikely because the size of the house is not changing. For example, if a four-bedroom house that could accommodate a five-person family is converted to three one-bedroom homes each occupied by a single person or a couple, the overall number of occupants may not even increase."
         },
         {
           "q": "How can a septic system built for one family accommodate multiple apartments?",
-          "a": "Septic systems are typically sized based on the number of bedrooms. As described in the example above, a conversion may not necessarily result in any increase in the number of bedrooms or occupants."
+          "a": "Septic systems are typically sized based on the number of bedrooms. As described in the example above, a conversion may not necessarily result in any increase in the number of bedrooms or occupants, and thus a need for increased sewer capacity, though homeowners should always check with local officials."
         },
         {
           "q": "What about parking?",
@@ -106,8 +106,8 @@
      "mixeduse": {      
       "questions": [
         {
-          "q": "Won’t new housing in already-busy mixed-use districts increase traffic?",
-          "a": "Typically a residential unit, whose occupants may take a few trips each day, has minimal traffic impact when compared to commercial uses, which may see dozens of visitors each hour. A traffic impact study and/or parking analysis can identify potential impacts ahead of development."
+          "q": "Won't new housing in already-busy mixed-use districts increase traffic?",
+          "a": "Typically an apartment or house, whose occupants may take a few trips each day, has minimal traffic impact when compared to commercial uses, which may see dozens of visitors each hour. A traffic impact study and/or parking analysis can identify potential impacts ahead of development."
         },
         {
           "q": "How will businesses in existing strip malls be impacted by redevelopment?",
@@ -131,15 +131,15 @@
      "cottage": {
       "questions": [
         {
-          "q": "Who would want to live in a house where their parking or trash isn’t right next to their house?",
+          "q": "Who would want to live in a place where their parking or trash isn't right next to their house?",
           "a": "Many people appreciate the compact, intimate cluster around shared green space that is created by putting the parking and trash at the back of a cottage cluster."
         },
         {
-          "q": "Aren’t putting houses this close together a fire hazard?",
+          "q": "Aren't putting houses this close together a fire hazard?",
           "a":  "Fire safety is very important, and can easily be accommodated in a cottage cluster. Creative site plan design can ensure proper access to and between the houses in the event of an emergency."
         },
         {
-          "q": "Won’t it feel cramped living so close to other houses?",
+          "q": "Won't it feel cramped living so close to other houses?",
           "a": "Cottage houses can be carefully designed so that they feel private – for example, windows can be staggered or private outdoor spaces can be put on one side of the house. Many people would be happy to live closer to other houses in exchange for the community-oriented atmosphere of a cottage cluster."
         }
       ],
@@ -160,12 +160,12 @@
     "cohousing": {
       "questions": [
         {
-          "q": "I don’t want to live next to a hippie commune!",
+          "q": "I don't want to live next to a hippie commune!",
           "a": "Massachusetts has several longstanding cohousing communities that provide concrete examples of how this type of housing functions and serves as an asset to its residents. From the outside, most of these are indistinguishable from a well-designed housing development."
         },
         {
-          "q": "Still, the people who live in cohousing must be crazy to give up their privacy. People in my neighborhood are more traditional – I don’t think cohousing residents would fit in here.",
-          "a": "Cohousing residents don’t sacrifice their privacy - each household has their own private home that is no different from a conventional house or apartment. People who move into cohousing simply want to live in a place where their neighbors know and support each other. This describes many small Massachusetts towns, so in this regard cohousing is a natural fit! Cohousing is often attractive to seniors who are at risk of isolation and would benefit from a community of diverse interests and ages living interconnectedly."
+          "q": "Still, the people who live in cohousing must be crazy to give up their privacy. People in my neighborhood are more traditional – I don't think cohousing residents would fit in here.",
+          "a": "Cohousing residents don't sacrifice their privacy - each household has their own private home that is no different from a conventional house or apartment. People who move into cohousing simply want to live in a place where their neighbors know and support each other. This describes many small Massachusetts towns, so in this regard cohousing is a natural fit! Cohousing is often attractive to seniors who are at risk of isolation and would benefit from a community of diverse interests and ages living interconnectedly."
         },
         {
           "q": "What is the impact of cohousing on neighborhood parking, services, and infrastructure?",

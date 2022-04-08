@@ -164,6 +164,7 @@ img {
     display: flex;
     grid-column: 1;
     img {
+      box-shadow: none;
       max-height: 100%;
       max-width: 100%;
     }
