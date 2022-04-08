@@ -39,6 +39,10 @@
     }
 
     &--links {
+      color: $color_font-contrast !important;
+      &:visited {
+        color: $color_font-contrast;
+      }
       @include media(large) {
         grid-column: 1;
         grid-row: 2;
@@ -80,8 +84,11 @@
   }
 
   &__link {
-    color: $color_font-contrast;
+    color: $color_font-contrast !important;
     text-decoration: none;
+    &:visited {
+      color: $color_font-contrast;
+    }
   }
 
   &__image-block {

@@ -4,6 +4,7 @@ import {
   faTwitter, faInstagram, faFacebookSquare, faLinkedinIn,
 } from '@fortawesome/free-brands-svg-icons';
 import logo from "../images/mapc-logo.svg";
+import { AnchorLink } from 'gatsby-plugin-anchor-links';
 
 const Footer = () => {
   return (
@@ -16,13 +17,13 @@ const Footer = () => {
         <h3 className="h3 footer__title">Quick Links</h3>
         <ul className="footer__list">
           <li className="footer__list-item">
-            <a href="https://metrocommon.mapc.org/" className="footer__link">MetroCommon Home</a>
+            <AnchorLink to="/" className="footer__link">Home</AnchorLink>
           </li>
           <li className="footer__list-item">
-            <a href="https://metrocommon.mapc.org/process-details" className="footer__link">MetroCommon Process Details</a>
+            <AnchorLink to="/about" className="footer__link">About Living Little</AnchorLink>
           </li>
           <li className="footer__list-item">
-            <a href="https://metrocommon.mapc.org/events" className="footer__link">MetroCommon Events</a>
+            <AnchorLink to="/#select" className="footer__link">Living Little Housing Types</AnchorLink>
           </li>
         </ul>
       </section>
