@@ -1,8 +1,5 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import aduPdf from "../content/SS_LL_Report_ADU.pdf";
-import cottagePdf from "../content/SS_LL_Report_Cottage.pdf";
-import tinyPdf from "../content/SS_LL_Report_Tiny.pdf";
 import overviewAdu1 from "../images/overview-adu1.jpg";
 import overviewTinyHouse1 from "../images/overview-tinyhouse1.png";
 import overviewCottage1 from "../images/overview-cottage1.jpg";
@@ -35,9 +32,9 @@ const Overview = ({ typology }) => {
   }
 
   const definitions = {
-    adu: <p>An <a href={aduPdf}>Accessory Dwelling Unit</a>, or ADU, is a smaller apartment on the same lot as a larger main house. ADUs are also known as “granny flats,” “carriage houses,” or “in-law apartments.” ADUs can be within the existing house (for example, in a finished basement), added to an existing structure (for example, in space above the garage or as a small addition to the main house), or free-standing (for example, in a converted a carriage house).</p>,
-    cottage: <p><a href={cottagePdf}>Cottage housing</a>, also called pocket neighborhoods, is known for its small houses clustered around shared green spaces. They are usually designed to be pedestrian-oriented, so parking is typically located behind the houses in a less prominent location rather than right next to each house. While cottage housing is best known for its small single-family houses, they can also include a mix of two-family houses, townhouses, or small apartment buildings.</p>,
-    tinyhouse: <p>While Henry David Thoreau’s 150-square-foot cabin at Walden Pond in Concord is arguably one of the most famous <a href={tinyPdf}>tiny houses</a>, the Tiny House Movement as such took off in 2008 after the subprime mortgage crisis and Great Recession. The movement was a response to the millions of foreclosures during that time, as well as the perception that the McMansion model of living was unsustainable. Today a “tiny house” typically refers to one that is smaller than 500 square feet, usually with a high-pitched ceiling and a porch.</p>,
+    adu: <p>An Accessory Dwelling Unit, or ADU, is a smaller apartment on the same lot as a larger main house. ADUs are also known as “granny flats,” “carriage houses,” or “in-law apartments.” ADUs can be within the existing house (for example, in a finished basement), added to an existing structure (for example, in space above the garage or as a small addition to the main house), or free-standing (for example, in a converted a carriage house).</p>,
+    cottage: <p>Cottage housing, also called pocket neighborhoods, is known for its small houses clustered around shared green spaces. They are usually designed to be pedestrian-oriented, so parking is typically located behind the houses in a less prominent location rather than right next to each house. While cottage housing is best known for its small single-family houses, they can also include a mix of two-family houses, townhouses, or small apartment buildings.</p>,
+    tinyhouse: <p>While Henry David Thoreau’s 150-square-foot cabin at Walden Pond in Concord is arguably one of the most famous tiny houses, the Tiny House Movement as such took off in 2008 after the subprime mortgage crisis and Great Recession. The movement was a response to the millions of foreclosures during that time, as well as the perception that the McMansion model of living was unsustainable. Today a “tiny house” typically refers to one that is smaller than 500 square feet, usually with a high-pitched ceiling and a porch.</p>,
     townhouse: "",
     sfc: "",
     mixeduse: "",

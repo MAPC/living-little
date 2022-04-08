@@ -1,6 +1,7 @@
 import React from 'react';
 import CallToAction from './callToAction';
 import report from '../content/Living-Little-Full-Report.pdf'
+import secondReport from '../content/SS_LL_Report_Final.pdf'
 
 
 const LearnMore = () => (
@@ -10,7 +11,7 @@ const LearnMore = () => (
       <CallToAction title="About Living Little" description="Learn more about why Living Little is important" resource="/about" />
       <CallToAction title="Original Living Little Report" description="Detached accessory dwelling units, cottage development, and tiny houses" resource={report} />
       <CallToAction title="A Few Small Questions" description="Print all of the Small Questions about Living Little" resource="https://airtable.com/shrHGXjANVq5160O9/tblK6DBm0wXoIc4Un" />
-      <CallToAction title="Second Living Little Report" description="Small-scale mixed use, townhouses, single-family conversions, and cohousing" resource={report} />
+      <CallToAction title="Second Living Little Report" description="Small-scale mixed use, townhouses, single-family conversions, and cohousing" resource={secondReport} />
     </div>
   </section>
 );

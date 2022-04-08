@@ -5,6 +5,7 @@ import SubtopicHeader from '../components/subtopicHeader';
 import Footer from '../components/footer';
 import '../styles/about.scss';
 import report from '../content/Living-Little-Full-Report.pdf';
+import secondReport from '../content/SS_LL_Report_Final.pdf'
 import questions from '../content/about-questions.json';
 import icon from "../images/question-icon.png";
 import adu from "../images/grid/main-adu.jpg";
@@ -83,7 +84,8 @@ const AboutPage = () => {
                     <article>
                         <SubtopicHeader title="Additional Resources" highlightWidth={230} />
                         <h1>Living Little</h1>
-                        <a href={report}>Living Little Report</a>
+                        <a href={report}>Original Living Little Report: Detached accessory dwelling units, cottage development, and tiny houses</a>
+                        <a href={secondReport}>Second Living Little Report: Small-scale mixed use, townhouses, single-family conversions, and cohousing</a>
                         <br />
                         <a href="https://airtable.com/shrHGXjANVq5160O9/tblK6DBm0wXoIc4Un" target="_blank">A Few Small Questions</a>
                         <ul>
