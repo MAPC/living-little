@@ -9,10 +9,10 @@ const TypologyGrid = () => {
       <div className="main-column">
         <div className="typology-grid-container">
           <div className="typology-grid-text">
-            <h2 className="h2">What are the types of</h2>
-            <SubtopicHeader title="living little?" highlightWidth={180} fontSize={40}/>
-            <p>What some of the alternative housing opportunities available to meet an ever growing demand for housing in the region?</p>
-            <p>Here are seven alternative housing opportunities:</p>
+            <h2 className="h2" style={{display: "inline-flex"}}>What does</h2>
+            <SubtopicHeader title="living little" highlightWidth={180} fontSize={40} />
+            <h2 className="h2" style={{marginTop: "-12px"}} >look like?</h2>
+            <p>There are many types of homes that would provide more housing options for smaller households while maintaining compatibility with the small-town character of suburban and rural communities in Greater Boston. Living little explores seven of these types: </p>
           </div>
           <GridItem typology="adu" />
           <GridItem typology="cottage" />

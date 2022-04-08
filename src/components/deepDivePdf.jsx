@@ -1,19 +1,20 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPrint } from '@fortawesome/free-solid-svg-icons';
-import aduPdf from "../content/SS_LL_Report_ADU.pdf";
-import cottagePdf from "../content/SS_LL_Report_Cottage.pdf";
-import townhousePdf from "../content/Townhouse.pdf";
-import sfcPdf from "../content/Conversion.pdf";
-import mixedusePdf from "../content/Mixed-use.pdf";
-import cohousingPdf from "../content/SS_LL_Report_Cohousing.pdf";
+import aduPdf from "../content/ADUs.pdf";
+import cottagePdf from "../content/Cottages.pdf";
+import townhousePdf from "../content/Townhouses.pdf";
+import sfcPdf from "../content/Single_fam_conversion.pdf";
+import mixedusePdf from "../content/Mixed_use.pdf";
+import cohousingPdf from "../content/Cohousing.pdf";
+import tinyhouse from "../content/Tinyhouse.pdf";
 
 const DeepDivePdf = ({typology}) => {
 
     const deepDivePdf = {
         adu: aduPdf,
         cottage: cottagePdf,
-        tinyhouse: "",
+        tinyhouse: tinyhouse,
         townhouse: townhousePdf,
         sfc: sfcPdf,
         mixeduse: mixedusePdf,
