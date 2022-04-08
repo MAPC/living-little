@@ -4,7 +4,7 @@ import AboutHeader from '../components/aboutHeader';
 import SubtopicHeader from '../components/subtopicHeader';
 import Footer from '../components/footer';
 import '../styles/about.scss';
-import report from '../content/SS_LL_Report_Final.pdf';
+import report from '../content/Living-Little-Full-Report.pdf';
 import questions from '../content/about-questions.json';
 import icon from "../images/question-icon.png";
 import adu from "../images/grid/main-adu.jpg";
@@ -60,6 +60,7 @@ const AboutPage = () => {
                     <article>
                         <SubtopicHeader title="A Few Small Questions" highlightWidth={250} />
                         {questionDivs}
+                        <h1 style={{marginLeft: 30}}><a href="https://airtable.com/shrHGXjANVq5160O9/tblK6DBm0wXoIc4Un">See the full list and sources of all of the Small Questions about Living Little</a></h1>
                     </article>
                     <article>
                         <SubtopicHeader title="Project Background" highlightWidth={213} />

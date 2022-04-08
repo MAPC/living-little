@@ -99,6 +99,7 @@
     @include media(large) {
       margin-bottom: .5rem;
     }
+    box-shadow: none;
     grid-column: 1;
     grid-row: 2;
     height: 45px;
