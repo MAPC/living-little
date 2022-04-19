@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import SubtopicHeader from './subtopicHeader';
-import history from '../content/history.json';
-import advantages from '../content/advantages.json';
 
 const Footnotes = ({ typology }) => {
 
@@ -16,31 +14,35 @@ const Footnotes = ({ typology }) => {
         <p>ULI. <a href="https://triangle.uli.org/news/adus/">Accessory Dwelling Units: Friendly Density or Neighborhood Foe?</a></p>
       </div>,
       <div>
-        <p>Garcia, David.<a href="https://ternercenter.berkeley.edu/wp-content/uploads/pdfs/ADU_Update_Brief_December_2017_.pdf"> ADU Update: Early Lessons and Impacts of California’s State and Local Policy Changes.</a> UC Berkeley.</p>
+        <p>Garcia, David.<a href="https://ternercenter.berkeley.edu/wp-content/uploads/pdfs/ADU_Update_Brief_December_2017_.pdf"> ADU Update: Early Lessons and Impacts of California's State and Local Policy Changes.</a> UC Berkeley.</p>
       </div>
     ],
-    cottage: [
-
-    ],
-    tinyhouse: [
-
-    ],
+    cottage: [],
+    tinyhouse: [],
     townhouse: [
       <div>
         <p><a href="http://www.mapc.org/wp-content/uploads/2017/10/MAPC_HousingEnrollment_Final.pdf"><em>The Waning Influence of Housing Production on Public School Enrollment in Massachusetts.</em></a> Tim Reardon and Sarah Philbrick; MAPC Research Brief, October 2017.</p>
-        <p><a href="https://www.chapa.org/sites/default/files/f_1239203891HousingSchoolAgeChildren.pdf"><em>Housing the Commonwealth’s School-Age Children: The Implications of Multi-Family Housing Development for Municipal and School Expenditures,</em></a> 2003, Community Opportunities Group, Inc. & Connery Associates; Citizens Planning and Housing Association.</p>
+        <p><a href="https://www.chapa.org/sites/default/files/f_1239203891HousingSchoolAgeChildren.pdf"><em>Housing the Commonwealth's School-Age Children: The Implications of Multi-Family Housing Development for Municipal and School Expenditures,</em></a> 2003, Community Opportunities Group, Inc. & Connery Associates; Citizens Planning and Housing Association.</p>
         <p><a href="https://www.mhp.net/writable/resources/documents/Cost_Benefit_new_housing_3-15-16.pdf"><em>The Costs And Hidden Benefits Of New Housing Development In Massachusetts.</em></a> Michael Goodman, Elise Korejwa, and Jason Wright; PPC Working Paper No. 02, March, 2016.</p>
       </div>
     ],
-    sfc: [
-    ],
+    sfc: [],
     mixeduse: [
+      <div>
+        <p><a href="https://storymaps.arcgis.com/stories/cb9bec551f9d48599f267f4ff6282906">Rethinking the Retail Strip.</a></p>
+      </div>,
+      <div>
+        <p>Ibid.</p>
+      </div>
     ],
-    cohousing: []
+    cohousing: [
+      <div>
+        <p>Brignall, Miles. <a href="https://www.theguardian.com/money/2009/oct/24/communal-living-grand-designs">Communal living: Grand designs on living in perfect harmony.</a> The Guardian, 23 October 2009.</p>
+      </div>
+    ]
   };
 
   const footnotesLi = footnotes[typology].map((elem) => {return <li>{elem}</li>;})
-  console.log("footnotesLi", footnotesLi);
 
   return (
     <article className="article">

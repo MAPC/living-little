@@ -2,6 +2,26 @@
     padding-top: 3rem;
 }
 
+.about {
+    &-images {
+    display: flex;
+    flex-basis: 30%;
+    flex-grow: 1;
+    justify-content: space-between;
+    }
+    &-image {
+        height: 10rem;
+        width: 30%;
+        object-fit: cover;
+
+        > img {
+            height: 100%;
+            width: auto;
+            object-fit: cover;
+        }
+    }
+}
+
 article {
     margin-bottom: 3rem;
 }

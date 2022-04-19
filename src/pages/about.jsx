@@ -6,14 +6,47 @@ import Footer from '../components/footer';
 import '../styles/about.scss';
 import report from '../content/Living-Little-Full-Report.pdf';
 import secondReport from '../content/SS_LL_Report_Final.pdf'
-import questions from '../content/about-questions.json';
+// import questions from '../content/about-questions.json';
 import icon from "../images/question-icon.png";
-import adu from "../images/grid/main-adu.jpg";
+import adu from "../images/ADU18.jpg";
+import sfc from "../images/Newton29.jpg";
+import cottage from "../images/Chapin_1.jpg";
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
 
 const AboutPage = () => {
 
-    const questionDivs = questions["questions"].map((elem) => 
+    const questions = [
+        {
+            "q": "If small housing is so great, why isn’t it getting built in my town?",
+            "a": <div>The type of housing that gets built isn’t only about what people want; it’s also influenced by land costs and town regulations. Check out <a href="https://www.youtube.com/watch?v=X1qwyLmjA9s&feature=emb_imp_woyt">this video</a> to understand why small housing is sometimes difficult to build.</div>
+        },
+        {
+            "q": "If my town builds more housing, even smaller housing, how will that impact our schools?",
+            "a":  "Several Massachusetts studies have found that concerns about new housing development increasing school enrollment are not born out. In fact, a 2017 MAPC study found no correlation between housing construction and school enrollment: in communities that have seen substantial housing construction, school enrollment barely changed, and districts with the largest student increases saw very little housing production."
+        },
+        {
+            "q": "How is that possible?",
+            "a": "Most increases in school-age children are associated with turnover in the existing housing supply, not construction of new units. The majority of suburban communities in the MAPC region are seeing sustained declines in enrollment: the Commonwealth’s public school enrollment (including charter schools) peaked in 2002 and has since declined by 3%. Even in communities where substantial housing construction has occurred, any corresponding growth in households has not been enough to offset the natural demographic decline in school-age residents associated with children of Baby Boomers aging into adulthood."
+        },
+        {
+            "q": "What about increased traffic?",
+            "a": "There is no evidence that smaller housing contributes to increased traffic and parking issues. One of the main reasons is that small housing typically only makes up a sliver of most suburban communities’ housing supply, especially when compared to single-family houses. By design, suburban single-family houses encourage households to own more than one vehicle due to their scale and availability of off-street parking. Meanwhile, smaller housing options generally consist of one-to two-bedrooms with fewer parking spaces, limiting the number of people and vehicles."
+        },
+        {
+            "q": "If smaller housing is built in my neighborhood, won’t my property value go down?",
+            "a": "Data on how Living Little typologies affect property prices is still limited, but studies show that smart growth policies—which favor compact, well-planned development and walkability—have become highly desirable and may actually increase property values."
+        },
+        {
+            "q": "Won’t these different types of housing stick out like a sore thumb?",
+            "a": "Zoning bylaws can be written to ensure new housing is respectful of existing architectural design. Town officials can add language that ensures new Living Little housing complements the neighborhood, and can require developers to undergo a design review process. Town officials can also provide design guidelines or create form-based codes to foster high-quality, predictable development."
+        },
+        {
+            "q": "I don’t want my town to be overrun with people!",
+            "a": "Small housing can fill a gap in the housing stock, but there is no evidence to indicate it leads to overcrowded communities. Factors such as land availability, zoning, market preferences, and development costs limit the potential for widespread smaller housing development and therefore its impact on a community. The nature of Living Little typologies and their incremental, small-scale development largely prevents them from spurring dramatic neighborhood change."
+        }
+    ]
+
+    const questionDivs = questions.map((elem) => 
         <div className="questions__content">
             <div className="questions__icon">
             <img src={icon}/>
@@ -46,7 +79,17 @@ const AboutPage = () => {
                     </article>
                     <article>
                         <SubtopicHeader title="Benefits of Living Little" highlightWidth={261} />
-                        <img src={adu} width="100%" height="auto" />
+                        <div className="about-images">
+                            <div className="about-image">
+                                <img src={adu} />
+                            </div>
+                            <div className="about-image">
+                                <img src={sfc} />
+                            </div>
+                            <div className="about-image">
+                                <img src={cottage} />
+                            </div>
+                        </div>
                         <p>Communities throughout the region need a variety of housing types and sizes to retain and attract a diverse mix of households. Small housing types promote:</p>
                         <ul>
                             <li><span style={{color: "#49849D", fontWeight: 600}}>Aging in place.</span> Senior households tend to consist of one or two people, who are not often served by traditional large, single-family houses found in most suburban communities. Many seniors who wish to downsize have difficulty finding options within their communities, let alone options they can afford, and instead choose to remain in houses that do not meet their accessibility needs or are difficult or costly to maintain.</li>

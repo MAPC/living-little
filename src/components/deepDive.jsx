@@ -24,8 +24,7 @@ const TypologyDeepDive = ({ typology }) => {
         <PotentialLayouts typology={typology} />
         <Advantages typology={typology} />
         <Questions typology={typology} />
-        {typology === "adu" || typology === "townhouse" ? <Footnotes typology={typology} /> : "" }
-        {/* <Footnotes typology={typology} /> */}
+        {typology === "adu" || typology === "townhouse" || typology === "mixeduse"  || typology === "cohousing" ? <Footnotes typology={typology} /> : "" }
         <AnchorLink to={`#select`} className="anchor__wrapper">
           <FontAwesomeIcon icon={faArrowAltCircleUp} className="anchor__icon" />
           <span className="anchor__helper-text">Select another typology</span>
