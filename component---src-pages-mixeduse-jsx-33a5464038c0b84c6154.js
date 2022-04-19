@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[191],{1386:function(e,t,l){l.r(t);var n=l(7294),a=l(8889),r=l(1277),u=l(3697),c=l(3041),s=(l(7534),l(1889)),i=l(3055);t.default=function(){return n.createElement(a.Z,null,n.createElement(r.Z,{title:"Living Little"}),n.createElement(u.Z,null),n.createElement(i.Z,null),n.createElement(c.Z,{typology:"mixeduse"}),n.createElement(s.Z,null))}}}]);
+//# sourceMappingURL=component---src-pages-mixeduse-jsx-33a5464038c0b84c6154.js.map
