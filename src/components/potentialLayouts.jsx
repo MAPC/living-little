@@ -1,15 +1,13 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import SubtopicHeader from './subtopicHeader';
-import OpportunityButton from './opportunityButton';
-import opportunties from '../content/opportunities.json';
 import potentialLayouts from '../content/potential-layouts.json';
-import layoutAdu1 from "../images/layout-adu.png";
-import layoutCottage1 from "../images/layout-cottage1.png";
-import layoutTinyhouse1 from "../images/layout-tiny1.png";
-import layoutTownhouse1 from "../images/layout-townhouse1.jpg";
-import layoutSfc1 from "../images/layout-sfc1.jpg";
-import layoutMixedused1 from "../images/layout-mixeduse1.jpg";
+import layoutAdu1 from "../images/layouts_ADU.jpg";
+import layoutCottage1 from "../images/layouts_Cottages.jpg";
+import layoutTinyhouse1 from "../images/layouts_Tiny.jpg";
+import layoutTownhouse1 from "../images/layouts_Townhouse.jpg";
+import layoutSfc1 from "../images/layouts_conversion.jpg";
+import layoutMixedused1 from "../images/layouts_Mixed.jpg";
 import layoutCohousing1 from "../images/layout-cohousing1.jpg";
 
 const PotentialLayouts = ({ typology }) => {
