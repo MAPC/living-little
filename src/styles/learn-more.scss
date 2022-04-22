@@ -26,9 +26,9 @@
     border-radius: 5px;
     box-shadow: $shadow-level-one;
     display: flex;
-    flex-basis: 35%;
+    flex-basis: 45%;
     justify-content: center;
-    margin: 1rem 0;
+    margin: 1rem 0 2rem;
     width: 15rem;
     &:not(:last-child) {
       @include media(large) {

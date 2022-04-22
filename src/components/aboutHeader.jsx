@@ -6,7 +6,7 @@ const AboutHeader = ({siteTitle}) => {
         <div className="about-header-container">
             <div className="about-header-content main-column">
                 <div className="about-header-content-link">
-                    <a href="/">Return to Home Page</a>
+                    <a href="/">Return to Home</a>
                 </div>
                 <div className="about-header-content-title">
                     <h1>{siteTitle}</h1>

@@ -2,13 +2,13 @@
   &-container {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
   }
   &-text {
     flex-basis: 45%;
     flex-grow: 1;
     margin: 1.5%;
-    max-height: 20rem;
-    max-width: 30%;
+    max-width: 45%;
   }
   @media only screen and (max-width: 650px) {
     &-text {
@@ -23,10 +23,9 @@
   &__wrapper {
     height: 300px;
     margin: 1.5% 1.5% 8%;
-    max-width: 30%;
     object-fit: contain;
     position: relative;
-    width: 30%;
+    width: 45%;
   }
   &__image {
     height: 100%;

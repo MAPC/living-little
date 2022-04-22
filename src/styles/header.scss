@@ -7,7 +7,7 @@ a {
     background-position: center;
     background-size: cover;
     display: grid;
-    grid-template-columns: 1fr 1000px 1fr;
+    grid-template-columns: 1fr 750px 1fr;
     grid-template-areas: "col1 col2 col3";
     height: 35rem;
     @media only screen and (max-width: 1020px) {
@@ -34,7 +34,7 @@ a {
         grid-area: col2;
         max-width: 100vw;
         opacity: 0.8;
-        width: 1000px;
+        width: 750px;
         &-half {
             background: $color_bg-violet;
             color: #ffffff;
@@ -43,12 +43,12 @@ a {
             height: 50%;
             margin-left: 10%;
             margin-right: 5%;
-            margin-top: 21%;
+            margin-top: 28%;
             position: relative;
-            width: 25%;
+            width: 28%;
             &:before {
                 border-bottom: 140px solid $color_bg-violet;
-                border-right: 250px solid transparent;
+                border-right: 210px solid transparent;
                 content: "";
                 height: 0;
                 left: 0;
