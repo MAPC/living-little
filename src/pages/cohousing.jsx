@@ -5,14 +5,17 @@ import TypologyGrid from '../components/typologyGrid';
 import DeepDive from '../components/deepDive';
 import LearnMore from '../components/learnMore';
 import ContextVideos from '../components/contextVideos';
+import { PopupProvider } from '../components/contexts/popupContext';
 
 const Cohousing = () => (
   <Layout>
-    <SEO title="Living Little" />
-    <TypologyGrid />
-    <ContextVideos />
-    <DeepDive typology="cohousing" />
-    <LearnMore />
+    <PopupProvider>
+      <SEO title="Living Little" />
+      <TypologyGrid />
+      <ContextVideos />
+      <DeepDive typology="cohousing" />
+      <LearnMore />
+    </PopupProvider>
   </Layout>
 );
 

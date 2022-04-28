@@ -1,0 +1,47 @@
+img {
+  box-shadow: rgba(0,0,0,0.3) 5px 5px 20px;
+  position: relative;
+  width: 100%;
+}
+
+.report-image {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin-left: calc((-100vw + 750px) / 2);
+  position: absolute;
+  width: 100vw;
+}
+
+.layouts {
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+.popup {
+  background-color: aquamarine;
+  cursor: pointer;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  max-height: 95vh;
+  position: absolute;
+  width: auto;
+  z-index: 11;
+}
+
+.modal {
+  &-container {
+    margin-bottom: 2.8rem; 
+  }
+  &-expand-overlay {
+    cursor: pointer;
+    margin-left: 92%;
+    margin-top: -3rem;
+    position: absolute;
+  }
+}

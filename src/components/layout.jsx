@@ -8,10 +8,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
-
 import Header from './header';
 import Footer from './footer';
 import '../styles/app.scss';
+import { PopupProvider } from '../components/contexts/popupContext';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -27,7 +27,9 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
+      <PopupProvider>
       <main className="main">{children}</main>
+      </PopupProvider>
       <Footer />
     </>
   );

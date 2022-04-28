@@ -19,7 +19,7 @@ const Header = ({ siteTitle }) => {
         </div>
       </a>
       <div className="main-column">
-        <p style={{margin: 0}}>Photo credit: <a href="http://unionstudioarch.com/projects/capitol-square/">Union Studio Architecture</a> and Nat Rea Photography</p>
+        <p style={{margin: 0}}>Photo Credit: <a href="http://unionstudioarch.com/projects/concord-riverwalk/">Union Studio Architecture</a> and Nat Rea Photography</p>
       </div>
       <section className="section">
         <div className="main-column">
