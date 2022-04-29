@@ -6,14 +6,17 @@ import DeepDive from '../components/deepDive';
 import CaseStudies from '../components/caseStudies';
 import LearnMore from '../components/learnMore';
 import ContextVideos from '../components/contextVideos';
+import { PopupProvider } from '../components/contexts/popupContext';
 
 const MixedUse = () => (
   <Layout>
-    <SEO title="Living Little" />
-    <TypologyGrid />
-    <ContextVideos />
-    <DeepDive typology="mixeduse" />
-    <LearnMore />
+    <PopupProvider>
+      <SEO title="Living Little" />
+      <TypologyGrid />
+      <ContextVideos />
+      <DeepDive typology="mixeduse" />
+      <LearnMore />
+    </PopupProvider>
   </Layout>
 );
 
